@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+//----Imagen Inicio----//
+
+.inicio{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(../imagenes/programador.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    header{
+
+        nav{
+            .container-fluid{
+                align-items: center;
+            
+                .logo__header{
+                    margin: 35px 15px;
+                    width: 8vw;
+                    min-width: 45px;
+                }
+            
+                .navbar-toggler{
+                    font-size: 1.5rem;
+                    background-color: #fff;
+                }
+                
+            }
+
+            .navbar-collapse{
+                margin-top: 15px;
+            
+                li{
+                    padding: 10px;
+                    list-style-type: none;
+            
+                    .nav-link{
+                        color: #fff;
+                        text-decoration: none;
+                        text-shadow: 0px 0px 10px rgb(193, 214, 214), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
+                        font-size: 1rem;
+                        font-family: 'Roboto', sans-serif;
+                        /* display: none; */
+                    }
+                }
+            }
+        }
+    }
+
+    .titulo {
+        margin-bottom: 200px;
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-shadow: 2px 2px 10px rgb(49, 161, 146), 2px 2px 20px rgb(193, 214, 214), 2px 2px 40px rgb(193, 214, 214);
+        line-height: 120px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .titulo__span{
+        font-size: 3.9rem;
+        font-family: 'Castoro Titling', cursive;
+    }
+}
+
+@media (min-width:576px){
+    .inicio{
+        justify-content: center;
+
+        ul{
+            display: flex;
+            justify-content: center;
+            gap: 4px;
+            margin-right: 5px;
+
+            li{
+                padding: 0;
+
+                .nav-link{
+                    display: block;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .titulo{
+        margin-bottom: 200px;
+        font-size: 1.8rem;
+        line-height: 140px;
+
+        .titulo-span{
+            font-size: 5.4rem;
+        }
+    }
+}
+
+@media (min-width:1000px){
+    .logo-header{
+        margin-left: 50px;
+        max-width: 80px;
+    }
+
+    ul{
+        gap: 50px;
+        margin-right: 40px;
+
+        li{
+            .nav-link{
+                font-size: 2rem;
+        
+            }
+        }
+    }
+
+    .titulo{
+        margin-bottom: 160px;
+    }
+}
