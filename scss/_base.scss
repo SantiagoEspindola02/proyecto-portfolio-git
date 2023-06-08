@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+$letra-titulo:'Castoro Titling', cursive;
+$letra-texto:'Roboto', sans-serif;
+
+@mixin flex($justify,$align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
