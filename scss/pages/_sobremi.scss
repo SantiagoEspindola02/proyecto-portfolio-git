@@ -27,7 +27,7 @@
         
             margin-top: 25px;
             text-align: justify;
-            color: #fff;
+            color: $color-letra;
             font-size: 1.1rem;
             font-family:$letra-texto;
             text-shadow: 0px 0px 10px rgb(49, 161, 146), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
@@ -48,7 +48,7 @@
             }
 
             .a_img{
-                color: #fff;
+                color: $color-letra;
                 background-color: #1b7ab9;
                 text-shadow:0px 0px 10px rgb(49, 161, 146), 0px 0px 20px rgb(193, 214, 214),0px 0px 40px rgb(193, 214, 214);
                 box-shadow:  0px 0px 10px rgb(49, 161, 146), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
@@ -127,9 +127,9 @@
             // margin-left: 60px;
 
             img{
-                margin-top: 80px;
+                margin-top: 100px;
                 width: 25vw;
-                max-width: 442px;
+                max-width: 400px;
             }
 
             .a_img{
@@ -141,15 +141,15 @@
 
         &__p{
             align-self: center;
-            margin-right: 115px;
+            margin-right: 110px;
             // font-size: 1.9rem;
-            max-width: 375px;
-            margin-bottom: 100px;
+            // max-width: 300px;
+            margin-bottom: 120px;
 
             p{
                 width: 42vw;
                 font-size: 1.45rem;
-                // max-width: 500px;
+                max-width: 537px;
             }
         }
     

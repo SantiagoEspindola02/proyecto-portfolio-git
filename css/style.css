@@ -49,17 +49,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 200px;
+  margin-bottom: 220px;
   font-family: "Roboto", sans-serif;
   color: #fff;
   text-shadow: 2px 2px 10px rgb(49, 161, 146), 2px 2px 20px rgb(193, 214, 214), 2px 2px 40px rgb(193, 214, 214);
-  line-height: 120px;
+  line-height: 300px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
-
-.titulo__span {
-  font-size: 3.9rem;
+.titulo .titulo__span {
+  font-size: 4.3rem;
   font-family: "Castoro Titling", cursive;
 }
 
@@ -81,12 +80,12 @@
     display: block;
     font-size: 1.09rem;
   }
-  .titulo {
-    margin-bottom: 200px;
+  .titulo h1 {
+    margin-bottom: 0;
     font-size: 1.8rem;
-    line-height: 140px;
+    line-height: 80px;
   }
-  .titulo .titulo-span {
+  .titulo h1 .titulo__span {
     font-size: 5.4rem;
   }
 }
@@ -102,8 +101,8 @@
   .navbar-collapse ul li .nav-link {
     font-size: 1.4rem;
   }
-  .titulo {
-    margin-bottom: 160px;
+  .titulo h1 {
+    margin-bottom: 0;
   }
 }
 .art_sobremi {
@@ -220,9 +219,9 @@
     width: 30vw;
   }
   .cv__caja--img img {
-    margin-top: 80px;
+    margin-top: 100px;
     width: 25vw;
-    max-width: 442px;
+    max-width: 400px;
   }
   .cv__caja--img .a_img {
     margin-top: 40px;
@@ -231,13 +230,13 @@
   }
   .cv__p {
     align-self: center;
-    margin-right: 115px;
-    max-width: 375px;
-    margin-bottom: 100px;
+    margin-right: 110px;
+    margin-bottom: 120px;
   }
   .cv__p p {
     width: 42vw;
     font-size: 1.45rem;
+    max-width: 537px;
   }
 }
 
