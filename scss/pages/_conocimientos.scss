@@ -1,41 +1,49 @@
+main{
+    background-color: #000;
+    height: 360vh;
+}
+
 //----TITULO----//
 
 .conocimientos{
     &__h2{
-        font-family:'Castoro Titling', cursive;
-    text-shadow: 0 0 6px #000;
-    color: purple;
+        font-family: $letra-titulo;
+        font-size: 2.5rem;
+        text-shadow: 0 0 3px rgb(207, 8, 197);
+        color: purple;
 
-    display: flex;
-    justify-content: center;
-    margin: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
     }
 }
 
 .conocimientos__recuadro{
-    @include flex(center,stretch);
+    @include flex(center,center);
 
     //----CAJA CONOCIMIENTOS----//
 
     .conocimientos__art{
         box-shadow: 0 0 10px purple;
         background-color: #fff;
-        border: 3px solid #000;
+        border: 3px solid rgb(58, 6, 58);
         border-radius: 30px;
     
-        height: 82vh;
-        width: 95vw;
-        font-family:'Roboto', sans-serif;
+        height: 340vh;
+        width: 90vw;
+        font-family:$letra-texto;
         font-size: 1.02rem;
     
-        flex-wrap: wrap;
         @include flex(space-evenly,stretch);
+        flex-wrap: wrap;
 
         //----TITULO LENGUAJES----//
 
         h3{
             color: purple;
             text-shadow: 0 0 5px#000;
+            font-size: 1.9rem;
+            margin: 15px;
         }
 
         //----HTML----//
@@ -47,27 +55,36 @@
             flex-wrap: wrap;
         
             padding: 5px;
-            margin-top: 8px;
-            width: 20vw;
-            min-width: 161px;
+            width: 44.56vw;
+            min-width: 250px;
+            max-width: 450px;
+            margin-top: 50px;
 
             .lenguaje1__caja-img{
-                width: 20vw;
+                width: 40vw;
+                min-width: 250px;
+                max-width: 450px;
 
                 img{
                     height: 25vh;
-                    width: 20vw;
+                    width: 40vw;
+                    min-width: 250px;
+                    max-width: 450px;
                     object-fit: cover;
                 }
             }
 
             .lenguaje1__p{
-                font-size: 1rem;
+                font-size: 1.5rem;
+                text-align: justify;
                 color: #000000;
             
                 margin-top: 10px;
-                height: 70vh;
-                width: 18vw;
+                height: 40vh;
+                width: 50vw;
+                min-width: 240px;
+                max-width: 440px;
+                
             }
 
         }
@@ -76,82 +93,62 @@
 
         .conocimientos__lenguaje2{
             @extend.conocimientos__lenguaje1;
-            flex-wrap: wrap;
-
-
+           
             .lenguaje2__caja-img{
                 @extend.lenguaje1__caja-img;
 
                 img{
-                    height: 25vh;
-                    width: 20vw;
-                    object-fit: cover;
+                    @extend img;
                 }
             }
 
             .lenguaje2__p{
-                font-size: 1rem;
-                color: #000000;
-            
-                margin-top: 10px;
-                height: 70vh;
-                width: 18vw;
+                @extend.lenguaje1__p;
             }
 
         }
 
-            //----JAVASCRIPT----//
+        //----JAVASCRIPT----//
 
         .conocimientos__lenguaje3{
             @extend.conocimientos__lenguaje1;
-            flex-wrap: wrap;
-
+            margin-top: 100px;
+            
             .lenguaje3__caja-img{
                 @extend.lenguaje1__caja-img;
 
                 img{
-                    height: 25vh;
-                    width: 20vw;
-                    object-fit: cover;
+                    @extend img;
                 }
             }
 
             .lenguaje3__p{
-                font-size: 1rem;
-                color: #000000;
-            
-                margin-top: 10px;
-                height: 70vh;
-                width: 18vw;
+                @extend.lenguaje1__p;
             }
-
         }
 
-            //----REACT----//
+        //----REACT----//
 
         .conocimientos__lenguaje4{
             @extend.conocimientos__lenguaje1;
-            flex-wrap: wrap;
+            margin-top: -30px;
 
             .lenguaje4__caja-img{
                 @extend.lenguaje1__caja-img;
 
                 img{
-                    height: 25vh;
-                    width: 20vw;
-                    object-fit: cover;
+                    @extend img;
                 }
             }
 
             .lenguaje4__p{
-                font-size: 1rem;
-                color: #000000;
-            
-                margin-top: 10px;
-                height: 70vh;
-                width: 18vw;
+                @extend.lenguaje1__p;
             }
-
         }
+
+        
     }
 }
+
+@media (min-width:600px){}
+        
