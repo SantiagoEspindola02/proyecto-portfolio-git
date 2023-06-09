@@ -1,0 +1,157 @@
+//----TITULO----//
+
+.conocimientos{
+    &__h2{
+        font-family:'Castoro Titling', cursive;
+    text-shadow: 0 0 6px #000;
+    color: purple;
+
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    }
+}
+
+.conocimientos__recuadro{
+    @include flex(center,stretch);
+
+    //----CAJA CONOCIMIENTOS----//
+
+    .conocimientos__art{
+        box-shadow: 0 0 10px purple;
+        background-color: #fff;
+        border: 3px solid #000;
+        border-radius: 30px;
+    
+        height: 82vh;
+        width: 95vw;
+        font-family:'Roboto', sans-serif;
+        font-size: 1.02rem;
+    
+        flex-wrap: wrap;
+        @include flex(space-evenly,stretch);
+
+        //----TITULO LENGUAJES----//
+
+        h3{
+            color: purple;
+            text-shadow: 0 0 5px#000;
+        }
+
+        //----HTML----//
+
+        .conocimientos__lenguaje1{
+            @include flex(stretch,center);
+            flex-direction: column;
+            text-align: justify;
+            flex-wrap: wrap;
+        
+            padding: 5px;
+            margin-top: 8px;
+            width: 20vw;
+            min-width: 161px;
+
+            .lenguaje1__caja-img{
+                width: 20vw;
+
+                img{
+                    height: 25vh;
+                    width: 20vw;
+                    object-fit: cover;
+                }
+            }
+
+            .lenguaje1__p{
+                font-size: 1rem;
+                color: #000000;
+            
+                margin-top: 10px;
+                height: 70vh;
+                width: 18vw;
+            }
+
+        }
+             
+        //----CSS----//
+
+        .conocimientos__lenguaje2{
+            @extend.conocimientos__lenguaje1;
+            flex-wrap: wrap;
+
+
+            .lenguaje2__caja-img{
+                @extend.lenguaje1__caja-img;
+
+                img{
+                    height: 25vh;
+                    width: 20vw;
+                    object-fit: cover;
+                }
+            }
+
+            .lenguaje2__p{
+                font-size: 1rem;
+                color: #000000;
+            
+                margin-top: 10px;
+                height: 70vh;
+                width: 18vw;
+            }
+
+        }
+
+            //----JAVASCRIPT----//
+
+        .conocimientos__lenguaje3{
+            @extend.conocimientos__lenguaje1;
+            flex-wrap: wrap;
+
+            .lenguaje3__caja-img{
+                @extend.lenguaje1__caja-img;
+
+                img{
+                    height: 25vh;
+                    width: 20vw;
+                    object-fit: cover;
+                }
+            }
+
+            .lenguaje3__p{
+                font-size: 1rem;
+                color: #000000;
+            
+                margin-top: 10px;
+                height: 70vh;
+                width: 18vw;
+            }
+
+        }
+
+            //----REACT----//
+
+        .conocimientos__lenguaje4{
+            @extend.conocimientos__lenguaje1;
+            flex-wrap: wrap;
+
+            .lenguaje4__caja-img{
+                @extend.lenguaje1__caja-img;
+
+                img{
+                    height: 25vh;
+                    width: 20vw;
+                    object-fit: cover;
+                }
+            }
+
+            .lenguaje4__p{
+                font-size: 1rem;
+                color: #000000;
+            
+                margin-top: 10px;
+                height: 70vh;
+                width: 18vw;
+            }
+
+        }
+    }
+}
