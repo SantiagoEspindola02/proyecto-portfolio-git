@@ -9,7 +9,7 @@
     &__h2{
         font-family: $letra-titulo;
         font-size: 2.8rem;
-        text-shadow: 0 0 3px rgb(207, 8, 197);
+        text-shadow: 3px 3px 6px #616060;
         color: purple;
 
         display: flex;
@@ -26,7 +26,7 @@
     .conocimientos__art{
         box-shadow: 0 0 10px purple;
         background-color: #fff;
-        border: 3px solid rgb(58, 6, 58);
+        border: 5px solid rgb(58, 6, 58);
         border-radius: 30px;
     
         height: 340vh;
@@ -77,7 +77,9 @@
             .lenguaje1__p{
                 font-size: 1.5rem;
                 text-align: justify;
-                color: #000000;
+                font-family: $letra-texto;
+                color: rgb(61, 60, 60);
+                text-shadow: 2px 2px 3px#616060;
             
                 margin-top: 10px;
                 height: 40vh;
@@ -150,6 +152,8 @@
     }
 }
 
+//----RESPONSIVE MOBILE----//
+
 @media (min-width:600px){
 
     .conocimientos__main{
@@ -165,6 +169,7 @@
                 font-size: 2.4rem;
                 margin: 30px;
             }
+
             .conocimientos__lenguaje1{
                 width: 40vw;
     
@@ -184,75 +189,71 @@
                     line-height: 35px;
                     @include width(100px,230px);
                     font-size: 1.7rem;
+                    font-family: $letra-texto;
+                    color: rgb(61, 60, 60);
+                    text-shadow: 2px 2px 3px#616060;
                 }
             }
     
-            .conocimientos__lenguaje2{
-                width: 40vw;
-    
-                .lenguaje2__caja-img{
-                    width: 40vw;
-                    @include width(100px,300px);
-    
-                    img{
-                        width: 40vw;
-                        @include width(100px,300px);
-                    }
-                }
-    
-                .lenguaje2__p{
-                    width: 35vw;
-                    line-height: 35px;
-                    font-size: 1.7rem;
-                    @include width(100px,230px);
-                }
-            }
-
+            
             .conocimientos__lenguaje3{
                 margin-top: 0;
-                width: 40vw;
-    
-                .lenguaje3__caja-img{
-                    width: 40vw;
-                    @include width(100px,300px);
-                    @include flex(center,center);
-    
-                    img{
-                        width: 40vw;
-                        @include width(100px,230px);
-                    }
-                }
-    
-                .lenguaje3__p{
-                    width: 35vw;
-                    line-height: 35px;
-                    @include width(100px,230px);
-                    font-size: 1.7rem;
-                }
+                
             }
     
             .conocimientos__lenguaje4{
-                width: 40vw;
                 margin-top: 0;
-    
-                .lenguaje4__caja-img{
-                    width: 40vw;
-                    @include width(100px,300px);
-    
-                    img{
-                        width: 40vw;
-                        @include width(100px,300px);
-                    }
-                }
-    
-                .lenguaje4__p{
-                    width: 35vw;
-                    line-height: 35px;
-                    font-size: 1.7rem;
-                    @include width(100px,230px);
-                }
             }
         }
     }
 }
-        
+
+//----RESPONSIVE DESKTOP----//
+
+@media(min-width:1200px){
+    .conocimientos__main{
+        height: 150vh;
+
+    
+      .conocimientos__recuadro{
+
+        .conocimientos__art{
+            @include flex(center,start);
+            height: 130vh;
+
+            .conocimientos__lenguaje1{
+                width: 20vw;
+    
+                .lenguaje1__caja-img{
+                    width: 20vw;
+                    @include width(100px,200px);
+                    @include flex(center,center);
+    
+                    img{
+                        width: 20vw;
+                        @include width(100px,200px);
+                    }
+                }
+    
+                .lenguaje1__p{
+                    width: 15vw;
+                    line-height: 30px;
+                    @include width(195px,200px);
+                    font-size: 1.7rem;
+                    font-family: $letra-texto;
+                    color: rgb(61, 60, 60);
+                    text-shadow: 2px 2px 3px#616060;
+                }
+            }
+
+            .conocimientos__lenguaje3{
+                margin-top: 50px;
+            }
+    
+            .conocimientos__lenguaje4{
+                margin-top: 50px;
+           }
+        }
+      } 
+    }       
+}
