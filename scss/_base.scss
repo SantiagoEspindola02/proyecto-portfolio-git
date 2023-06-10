@@ -15,3 +15,8 @@ $letra-texto:'Roboto', sans-serif;
     justify-content: $justify;
     align-items: $align;
 }
+
+@mixin width ($min,$max){
+    min-width:$min;
+    max-width:$max;
+}

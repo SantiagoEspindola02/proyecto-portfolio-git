@@ -1,4 +1,4 @@
-main{
+.conocimientos__main{
     background-color: #000;
     height: 360vh;
 }
@@ -8,7 +8,7 @@ main{
 .conocimientos{
     &__h2{
         font-family: $letra-titulo;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         text-shadow: 0 0 3px rgb(207, 8, 197);
         color: purple;
 
@@ -150,5 +150,109 @@ main{
     }
 }
 
-@media (min-width:600px){}
+@media (min-width:600px){
+
+    .conocimientos__main{
+        height: 275vh;
+    }
+    .conocimientos__recuadro{
+
+        .conocimientos__art{
+
+            height: 250vh;
+
+            h3{
+                font-size: 2.4rem;
+                margin: 30px;
+            }
+            .conocimientos__lenguaje1{
+                width: 40vw;
+    
+                .lenguaje1__caja-img{
+                    width: 40vw;
+                    @include width(100px,300px);
+                    @include flex(center,center);
+    
+                    img{
+                        width: 40vw;
+                        @include width(100px,230px);
+                    }
+                }
+    
+                .lenguaje1__p{
+                    width: 35vw;
+                    line-height: 35px;
+                    @include width(100px,230px);
+                    font-size: 1.7rem;
+                }
+            }
+    
+            .conocimientos__lenguaje2{
+                width: 40vw;
+    
+                .lenguaje2__caja-img{
+                    width: 40vw;
+                    @include width(100px,300px);
+    
+                    img{
+                        width: 40vw;
+                        @include width(100px,300px);
+                    }
+                }
+    
+                .lenguaje2__p{
+                    width: 35vw;
+                    line-height: 35px;
+                    font-size: 1.7rem;
+                    @include width(100px,230px);
+                }
+            }
+
+            .conocimientos__lenguaje3{
+                margin-top: 0;
+                width: 40vw;
+    
+                .lenguaje3__caja-img{
+                    width: 40vw;
+                    @include width(100px,300px);
+                    @include flex(center,center);
+    
+                    img{
+                        width: 40vw;
+                        @include width(100px,230px);
+                    }
+                }
+    
+                .lenguaje3__p{
+                    width: 35vw;
+                    line-height: 35px;
+                    @include width(100px,230px);
+                    font-size: 1.7rem;
+                }
+            }
+    
+            .conocimientos__lenguaje4{
+                width: 40vw;
+                margin-top: 0;
+    
+                .lenguaje4__caja-img{
+                    width: 40vw;
+                    @include width(100px,300px);
+    
+                    img{
+                        width: 40vw;
+                        @include width(100px,300px);
+                    }
+                }
+    
+                .lenguaje4__p{
+                    width: 35vw;
+                    line-height: 35px;
+                    font-size: 1.7rem;
+                    @include width(100px,230px);
+                }
+            }
+        }
+    }
+}
         
