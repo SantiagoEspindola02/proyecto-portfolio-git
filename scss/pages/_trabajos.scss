@@ -17,17 +17,17 @@
     .section__trabajos{
         flex-wrap: wrap;
         @include flex(center,center);
-    
+
         height: 110vh;
 
         .section__1{
             background-color: #111a;
             border-radius: 20px;
             box-shadow: 0px 0px 10px rgb(49, 161, 146);
-        
+
             width: 85vw;
             padding: 20px;
-        
+
             @include flex(center,center);
 
             .trabajo__1{
@@ -41,11 +41,11 @@
                 }
 
                 .trabajo__p1{
-                    margin-top: 30px;
+                    margin-top: 15px;
                     text-align: justify;
                     color: white;
                     text-shadow: 0px 0px 10px rgb(49, 161, 146),0px 0px 10px rgb(49, 161, 146);
-                }                
+                }
             }
         }
 
@@ -68,7 +68,7 @@
                 }
             }
         }
-        
+
     }
 }
 
@@ -88,7 +88,7 @@
 
                 .trabajo__p1{
                     font-size: 1.8rem;
-                    margin-top: 30px;
+                    margin-top: 35px;
                 }
             }
 
