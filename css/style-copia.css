@@ -638,7 +638,7 @@ conocimientos
 
 /* trabajos */
 
-.art-trabajos{
+.art__trabajos{
     /* box-sizing: border-box; */
     height: 126vh;
     width: 100vw;
@@ -724,7 +724,7 @@ conocimientos
         font-size: 1.5rem;
     }
 
-    .art-trabajos{
+    .art__trabajos{
     height: 200vh;
     }
 
@@ -750,7 +750,7 @@ conocimientos
         font-size: 2rem;
     }
 
-    .art-trabajos{
+    .art__trabajos{
         height: 125vh;
         }
 

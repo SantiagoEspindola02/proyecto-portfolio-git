@@ -1,0 +1,128 @@
+.art__trabajos{
+
+    height: 126vh;
+    width: 100vw;
+    background-position:center;
+    background-size: cover;
+    background-image: url(../imagenes/trabajos.jpg);
+
+    .titulo__trabajos{
+        color: #fff;
+        font-family:$letra-titulo;
+        text-align: center;
+        text-shadow: 0px 0px 10px rgb(49, 161, 146),0px 0px 10px rgb(49, 161, 146);
+        padding: 25px;
+    }
+
+    .section__trabajos{
+        flex-wrap: wrap;
+        @include flex(center,center);
+    
+        height: 110vh;
+
+        .section__1{
+            background-color: #111a;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px rgb(49, 161, 146);
+        
+            width: 85vw;
+            padding: 20px;
+        
+            @include flex(center,center);
+
+            .trabajo__1{
+                width: 80vw;
+
+                .trabajo__img1{
+
+                    img{
+                        border-radius: 20px;
+                    }
+                }
+
+                .trabajo__p1{
+                    margin-top: 30px;
+                    text-align: justify;
+                    color: white;
+                    text-shadow: 0px 0px 10px rgb(49, 161, 146),0px 0px 10px rgb(49, 161, 146);
+                }                
+            }
+        }
+
+        .section__2{
+            @extend.section__1;
+            margin-top: 30px;
+
+            .trabajo__2{
+                @extend.trabajo__1;
+
+                .trabajo__img2{
+
+                    img{
+                        @extend img;
+                    }
+                }
+
+                .trabajo__p2{
+                    @extend.trabajo__p1;
+                }
+            }
+        }
+        
+    }
+}
+
+@media(min-width:600px){
+    .art__trabajos{
+        height: 215vh;
+
+        .titulo__trabajos{
+            font-size: 2.5rem;
+            padding: 50px;
+        }
+
+        .section__trabajos{
+
+            .section__1{
+                max-width: 775px;
+
+                .trabajo__p1{
+                    font-size: 1.8rem;
+                    margin-top: 30px;
+                }
+            }
+
+            .section__2{
+                margin-top: 80px;
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+
+    .art__trabajos{
+        height: 135vh;
+
+        .titulo__trabajos{
+            font-size: 3rem;
+        }
+
+        .section__trabajos{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(2,1fr);
+
+            .section__1{
+                height: 800px;
+                width: 45vw;
+                margin: auto;
+
+                .trabajo__p1{
+                    font-size: 1.8rem;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
