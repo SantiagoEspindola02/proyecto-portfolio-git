@@ -499,5 +499,185 @@
     margin-top: 50px;
   }
 }
+.serv__container .titulo__serv {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.serv__container .titulo__serv h2 {
+  padding: 25px;
+  font-family: "Castoro Titling", cursive;
+  font-size: 2.8rem;
+  color: purple;
+  text-shadow: 0 0 5px #000;
+}
+.serv__container .art__serv {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 15px;
+}
+.serv__container .art__serv .serv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 4px solid #222;
+  box-shadow: 4px 4px 10px #000;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  background-color: #333333;
+  width: 120vw;
+  padding: 20px;
+}
+.serv__container .art__serv .serv__1, .serv__container .art__serv .serv__3, .serv__container .art__serv .serv__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: justify;
+  min-width: 250px;
+  max-width: 450px;
+  width: 44.56vw;
+}
+.serv__container .art__serv .serv__1-img, .serv__container .art__serv .serv__3-img, .serv__container .art__serv .serv__2-img {
+  object-fit: cover;
+  min-width: 250px;
+  max-width: 450px;
+  width: 40vw;
+}
+.serv__container .art__serv .serv__1-img img, .serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__1-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__1-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__3-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__1-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__1-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__3-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__1-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__1-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__3-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__2-img img {
+  border-radius: 20px;
+  border: 2px solid #222;
+}
+.serv__container .art__serv .serv__1 h3, .serv__container .art__serv .serv__3 h3, .serv__container .art__serv .serv__2 h3 {
+  color: purple;
+  text-shadow: 0 0 5px #000;
+  font-size: 1.9rem;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  font-family: "Roboto", sans-serif;
+}
+.serv__container .art__serv .serv__1-p, .serv__container .art__serv .serv__3-p, .serv__container .art__serv .serv__2-p {
+  min-width: 250px;
+  max-width: 450px;
+  width: 40vw;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: #aaa;
+  text-shadow: 0 0 1px #eee;
+}
+.serv__container .art__serv .serv__2 {
+  margin-top: 60px;
+}
+.serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__2-img img {
+  border-radius: 20px;
+  border: 2px solid #222;
+}
+.serv__container .art__serv .serv__2 h3 {
+  color: purple;
+  text-shadow: 0 0 5px #000;
+  font-size: 1.9rem;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  font-family: "Roboto", sans-serif;
+}
+.serv__container .art__serv .serv__3 {
+  margin-top: 60px;
+}
+.serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__3-img img {
+  border-radius: 20px;
+  border: 2px solid #222;
+}
+.serv__container .art__serv .serv__3 h3 {
+  color: purple;
+  text-shadow: 0 0 5px #000;
+  font-size: 1.9rem;
+  margin: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+@media (min-width: 600px) {
+  .serv__container .titulo__serv {
+    font-size: 2.5rem;
+  }
+  .serv__container .art__serv .serv {
+    justify-content: space-evenly;
+    max-width: 797px;
+  }
+  .serv__container .art__serv .serv__1, .serv__container .art__serv .serv__2, .serv__container .art__serv .serv__3 {
+    width: 34vw;
+    max-width: 300px;
+  }
+  .serv__container .art__serv .serv__1-img, .serv__container .art__serv .serv__2-img, .serv__container .art__serv .serv__3-img {
+    width: 25vw;
+    min-width: 190px;
+    max-width: 263.5px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .serv__container .art__serv .serv__1 h3, .serv__container .art__serv .serv__2 h3, .serv__container .art__serv .serv__3 h3 {
+    font-size: 2.4rem;
+  }
+  .serv__container .art__serv .serv__1-p, .serv__container .art__serv .serv__2-p, .serv__container .art__serv .serv__3-p {
+    width: 34vw;
+    min-width: 120px;
+    max-width: 300px;
+    font-size: 1.7rem;
+  }
+  .serv__container .art__serv .serv__2 {
+    margin: 0;
+  }
+  .serv__container .art__serv .serv__3 {
+    flex-wrap: nowrap;
+  }
+}
+@media (min-width: 1200px) {
+  .serv__container .titulo__serv {
+    font-size: 3rem;
+  }
+  .serv__container .art__serv .serv {
+    max-width: 1700px;
+    justify-content: space-evenly;
+    padding: 50px;
+  }
+  .serv__container .art__serv .serv__1, .serv__container .art__serv .serv__2, .serv__container .art__serv .serv__3 {
+    width: 25vw;
+    max-width: 450px;
+  }
+  .serv__container .art__serv .serv__1-img, .serv__container .art__serv .serv__2-img, .serv__container .art__serv .serv__3-img {
+    width: 25vw;
+    min-width: 190px;
+    max-width: 263.5px;
+  }
+  .serv__container .art__serv .serv__1 h3, .serv__container .art__serv .serv__2 h3, .serv__container .art__serv .serv__3 h3 {
+    font-size: 2.4rem;
+    padding: 25px;
+    margin: 0;
+  }
+  .serv__container .art__serv .serv__1-p, .serv__container .art__serv .serv__2-p, .serv__container .art__serv .serv__3-p {
+    width: 25vw;
+    min-width: 120px;
+    max-width: 450px;
+    font-size: 1.7rem;
+  }
+  .serv__container .art__serv .serv__2 {
+    margin: 0;
+  }
+  .serv__container .art__serv .serv__3 {
+    margin: 0;
+  }
+  .serv__container .art__serv .serv__3 h3 {
+    padding: 25px;
+    width: 30vw;
+    margin: 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

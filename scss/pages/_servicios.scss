@@ -1,0 +1,270 @@
+.serv__container{
+
+    //----TITULO SERVICIOS----//
+
+    .titulo__serv{
+
+        @include flex(center,stretch);
+
+        h2{
+            padding: 25px;
+            font-family: $letra-titulo;
+            font-size: 2.8rem;
+            color: purple;
+            text-shadow: 0 0 5px#000;
+        }
+    }
+
+    .art__serv{
+
+        @include flex(center,stretch);
+        padding: 15px;
+
+        //----CONTENEDOR SERVICIOS----//
+
+        .serv{
+
+            @include flex(space-evenly,center);
+            border: 4px solid #222;
+            box-shadow: 4px 4px 10px #000;
+            flex-wrap: wrap;
+            border-radius: 30px;
+            background-color: #333333ff;
+            width: 120vw;
+            padding: 20px;
+
+
+            // ----SERVICIO 1----//
+
+            &__1{
+
+                @include flex(center,center);
+                flex-wrap: wrap;
+                flex-direction: column;
+                text-align: justify;
+                @include width(250px,450px);
+                width: 44.56vw;
+
+                &-img{
+
+                    object-fit: cover;
+                    @include width(250px,450px);
+                    width: 40vw;
+
+                    img{
+                        border-radius: 20px;
+                        border: 2px solid #222;
+                    }
+                }
+
+                h3{
+
+                    color: purple;
+                    text-shadow: 0 0 5px#000;
+                    font-size: 1.9rem;
+                    margin: 15px;
+                    @include flex(center,stretch);
+                    font-family: $letra-texto;
+                }
+
+                &-p{
+
+                    @include width(250px,450px);
+                    width: 40vw;
+                    text-align: justify;
+                    font-family: $letra-texto;
+                    font-size: 1.5rem;
+                    color: #aaa;
+                    text-shadow: 0 0 1px #eee;
+                }
+            }
+
+            // ----SERVICIO 2----//
+
+
+            &__2{
+
+                @extend.serv__1;
+                margin-top: 60px;
+
+                &-img{
+
+                    @extend.serv__1-img;
+
+                    img{
+                        border-radius: 20px;
+                        border: 2px solid #222;
+                    }
+                }
+
+                h3{
+
+                    color: purple;
+                    text-shadow: 0 0 5px#000;
+                    font-size: 1.9rem;
+                    margin: 15px;
+                    @include flex(center,stretch);
+                    font-family: $letra-texto;
+
+
+                }
+
+                &-p{
+
+                    @extend.serv__1-p;
+                }
+            }
+
+            // ----SERVICIO 3----//
+
+            &__3{
+
+                margin-top: 60px;
+                @extend.serv__1;
+
+                &-img{
+
+                    @extend.serv__1-img;
+
+                    img{
+                        border-radius: 20px;
+                        border: 2px solid #222;
+                    }
+                }
+
+                h3{
+
+                    color: purple;
+                    text-shadow: 0 0 5px#000;
+                    font-size: 1.9rem;
+                    margin: 15px;
+                    text-align: center;
+                    font-family: $letra-texto;
+                }
+
+                &-p{
+
+                    @extend.serv__1-p;
+
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:600px){
+    .serv__container{
+
+        .titulo__serv{
+
+            font-size: 2.5rem;
+        }
+
+        .art__serv{
+
+            .serv{
+
+                justify-content: space-evenly;
+                max-width: 797px;
+                // width: 80vw;
+
+                &__1{
+
+                    width: 34vw;
+                    max-width: 300px;
+
+
+                    &-img{
+
+                        width: 25vw;
+                        @include width(190px,263.5px);
+                        @include flex(center,stretch);
+                    }
+
+                    h3{
+                        font-size: 2.4rem;
+                    }
+
+                    &-p{
+
+                        width: 34vw;
+                        @include width(120px,300px);
+                        font-size: 1.7rem;
+                    }
+                }
+
+                &__2{
+
+                    margin: 0;
+                }
+
+                &__3{
+
+                    flex-wrap: nowrap;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .serv__container{
+
+        .titulo__serv{
+
+            font-size: 3rem;
+        }
+
+        .art__serv{
+
+            .serv{
+
+                max-width: 1700px;
+                justify-content: space-evenly;
+                padding: 50px;
+
+                &__1{
+
+                    width: 25vw;
+                    max-width: 450px;
+
+
+                    &-img{
+
+                        width: 25vw;
+                        @include width(190px,263.5px);
+                    }
+
+                    h3{
+                        font-size: 2.4rem;
+                        padding: 25px;
+                        margin: 0;
+                    }
+
+                    &-p{
+
+                        width: 25vw;
+                        @include width(120px,450px);
+                        font-size: 1.7rem;
+                    }
+                }
+
+                &__2{
+
+                    margin: 0;
+                }
+
+                &__3{
+
+                    margin: 0;
+
+                    h3{
+                        padding: 25px;
+                        width: 30vw;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
