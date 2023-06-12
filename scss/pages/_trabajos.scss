@@ -59,7 +59,7 @@
                 .trabajo__img2{
 
                     img{
-                        @extend img;
+                        border-radius: 20px;
                     }
                 }
 
@@ -86,10 +86,14 @@
             .section__1{
                 max-width: 775px;
 
-                .trabajo__p1{
-                    font-size: 1.8rem;
-                    margin-top: 35px;
+                .trabajo__1{
+
+                    .trabajo__p1{
+                        font-size: 1.8rem;
+                        margin-top: 35px;
+                    }
                 }
+
             }
 
             .section__2{
@@ -114,14 +118,18 @@
             grid-template-columns: repeat(2,1fr);
 
             .section__1{
-                height: 800px;
+                height: 850px;
                 width: 45vw;
                 margin: auto;
 
-                .trabajo__p1{
-                    font-size: 1.8rem;
-                    margin-top: 50px;
+                .trabajo__1{
+
+                    .trabajo__p1{
+                        font-size: 1.8rem;
+                        margin-top: 50px;
+                    }
                 }
+
             }
         }
     }
