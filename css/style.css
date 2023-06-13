@@ -690,11 +690,13 @@
   justify-content: center;
   align-items: stretch;
   font-family: "Castoro Titling", cursive;
-  color: rgb(133, 129, 129);
-  border-bottom: 1px solid #bbb;
-  box-shadow: 0 0 10px #999;
+  font-size: 2.3rem;
+  color: purple;
+  text-shadow: 0 0 5px #000;
+  border-bottom: 1px solid #222;
+  box-shadow: 0 0 10px #000;
   padding-top: 30px;
-  padding-bottom: 7px;
+  padding-bottom: 12px;
   width: 100vw;
 }
 .contacto__footer .form {
@@ -709,37 +711,83 @@
   padding: 20px;
   padding-left: 0;
   font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: purple;
+  text-shadow: 0 0 5px #000;
 }
 .contacto__footer .form__input {
   width: 80vw;
   min-width: 300px;
-  background-color: #bbb;
+  max-width: 800px;
+  background-color: rgba(214, 128, 214, 0.705);
+  color: #000;
   height: 45px;
-  padding: 10px;
+  padding: 25px;
   font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-height: 200px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid purple;
+}
+.contacto__footer .form__input:focus {
+  background: linear-gradient(to bottom, transparent, purple);
+}
+.contacto__footer .form__textarea {
+  width: 80vw;
+  min-width: 300px;
+  max-width: 800px;
+  background-color: rgba(214, 128, 214, 0.705);
+  color: #000;
+  min-height: 50px;
+  padding: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: vertical;
+  max-height: 200px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid purple;
+}
+.contacto__footer .form__textarea:focus {
+  background: linear-gradient(to bottom, transparent, purple);
 }
 .contacto__footer .form__boton {
-  max-width: 270px;
+  max-width: 150px;
   width: 40vw;
   height: 50px;
   padding: 0px;
   margin-top: 30px;
   font-family: "Roboto", sans-serif;
+  color: #000;
+  background-color: rgba(214, 128, 214, 0.705);
+  border: none;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.contacto__footer .form__boton:active {
+  background: linear-gradient(to bottom, transparent, purple);
 }
 .contacto__footer .redes {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: 10vw;
-  gap: 20px;
+  width: 50vw;
+  gap: 50px;
   padding-top: 30px;
+}
+.contacto__footer .redes img, .contacto__footer .redes .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .contacto__footer .redes img, .contacto__footer .redes .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .contacto__footer .redes img, .contacto__footer .redes .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .contacto__footer .redes img {
+  max-height: 50px;
+  min-width: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
