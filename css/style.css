@@ -679,5 +679,67 @@
     margin: 0;
   }
 }
+.contacto__footer {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacto__footer .contacto__titulo {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  font-family: "Castoro Titling", cursive;
+  color: rgb(133, 129, 129);
+  border-bottom: 1px solid #bbb;
+  box-shadow: 0 0 10px #999;
+  padding-top: 30px;
+  padding-bottom: 7px;
+  width: 100vw;
+}
+.contacto__footer .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.contacto__footer .form__label {
+  align-self: flex-start;
+  padding: 20px;
+  padding-left: 0;
+  font-family: "Roboto", sans-serif;
+}
+.contacto__footer .form__input {
+  width: 80vw;
+  min-width: 300px;
+  background-color: #bbb;
+  height: 45px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacto__footer .form__boton {
+  max-width: 270px;
+  width: 40vw;
+  height: 50px;
+  padding: 0px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacto__footer .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 10vw;
+  gap: 20px;
+  padding-top: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */

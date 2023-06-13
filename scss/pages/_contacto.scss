@@ -1,0 +1,64 @@
+.contacto__footer{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contacto__titulo{
+        @include flex(center,stretch);
+        font-family: $letra-titulo;
+        color: rgb(133, 129, 129);
+        border-bottom: 1px solid #bbb;
+        box-shadow: 0 0 10px #999;
+        padding-top: 30px;
+        padding-bottom: 7px;
+        width: 100vw;
+        
+    }
+
+    .form{
+        @include flex(center,center);
+        flex-direction: column;
+        padding-top: 50px;
+
+            &__label{
+
+                align-self: flex-start;
+                padding: 20px;
+                padding-left: 0;
+                font-family: $letra-texto;
+            }
+
+            &__input{
+                width: 80vw;
+                min-width: 300px;
+                background-color: #bbb;
+                height: 45px;
+                padding: 10px;
+                font-family: $letra-texto;
+            @include flex(center,center);
+
+            }
+
+            &__boton{
+                max-width: 270px;
+                width: 40vw;
+                height: 50px;
+                padding: 0px;
+                margin-top: 30px;
+                font-family: $letra-texto;
+            @include flex(center,center);
+
+            }
+        
+    }
+
+    .redes{
+        @include flex(center,center);
+        flex-direction: row;
+        width: 10vw;
+        gap: 20px;
+        padding-top: 30px;
+    }
+
+}

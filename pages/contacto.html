@@ -9,32 +9,27 @@
     <link rel="stylesheet" href="../css/normalize.css">
 </head>
 <body>
-    <footer>
-        <div class="titulo-contacto">
+    <footer class="contacto__footer">
+        <div class="contacto__titulo">
             <h2>Contactame</h2>
         </div>
-        <div class="img-usuario">
-            <img src="./imagenes/usuario.jpg" alt="usuario">
+        <!-- <div class="img__usuario">
+            <img src="../imagenes/usuario1.png" alt="usuario">
+        </div> -->
+        <form action="" class="form"> 
+                <label class="form__label" for="nombreapellido">Nombre y Apellido</label>
+                <input class="form__input" type="text" placeholder="Escribe tu nombre" required>
+                <label class="form__label" for="correoelectronico">Correo electrónico</label>
+                <input class="form__input" type="email" placeholder="Escribe tu correo personal" required>
+                <label class="form__label" for="mensaje">Mensaje</label>
+                <textarea class="form__input" cols="30" rows="10" placeholder="Escribe tu consulta"></textarea>
+                <input class="form__boton" type="submit" value="Enviar">
+        </form>
+        <div class="redes">
+            <img src="../imagenes/whatsapp.jpg" alt="whatsapp">
+            <img src="../imagenes/instagram.jpg" alt="instagram">
+            <img src="../imagenes/gmail.jpg" alt="gmail">
         </div>
-            <form action=""> PONE ALGO
-                <div>
-                    <input type="text" placeholder="Escribe tu nombre">
-                </div>
-                <div>
-                    <input type="email" placeholder="Escribe tu correo personal">
-                </div>
-                <div>
-                    <textarea cols="30" rows="10" placeholder="Escribe tu consulta"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
-            <div>
-                <img src="./imagenes/whatsapp.jpg" alt="whatsapp">
-                <img src="./imagenes/instagram.jpg" alt="instagram">
-                <img src="./imagenes/gmail.jpg" alt="gmail">
-            </div>
     </footer>
 </body>
 </html>
