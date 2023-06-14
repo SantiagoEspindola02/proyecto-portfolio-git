@@ -42,7 +42,9 @@
   text-shadow: 0px 0px 10px rgb(193, 214, 214), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
-  /* display: none; */
+}
+.navbar-collapse li .nav-link:hover {
+  color: rgb(8, 8, 68);
 }
 
 .titulo {
@@ -119,11 +121,10 @@
   background-color: rgba(0, 0, 0, 0.6);
   box-shadow: 2px 2px 10px rgb(49, 161, 146), 2px 2px 20px rgb(193, 214, 214), 2px 2px 40px rgb(193, 214, 214);
   width: 80vw;
-  min-width: 258px;
+  min-width: 277.3px;
   max-width: 318px;
   height: 91vh;
   padding: 5v px;
-  /* margin-bottom: 70px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +132,7 @@
 }
 .art_sobremi .cv__p {
   width: 60vw;
-  min-width: 204px;
+  min-width: 246.4px;
   max-width: 260px;
   margin-top: 25px;
   text-align: justify;
@@ -142,7 +143,6 @@
 }
 .art_sobremi .cv__caja--img {
   text-align: center;
-  /* margin-right: 5px; */
   width: 40vw;
   display: flex;
   justify-content: stretch;
@@ -152,7 +152,6 @@
 .art_sobremi .cv__caja--img img, .art_sobremi .cv__caja--img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .art_sobremi .cv__caja--img img, .art_sobremi .cv__caja--img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .art_sobremi .cv__caja--img img, .art_sobremi .cv__caja--img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .art_sobremi .cv__caja--img img {
   min-width: 250px;
   border-radius: 30px;
-  /* height: 250px; */
 }
 .art_sobremi .cv__caja--img .a_img {
   color: #fff;
@@ -167,6 +166,10 @@
   justify-content: center;
   align-items: center;
 }
+.art_sobremi .cv__caja--img .a_img:hover {
+  color: rgb(8, 8, 68);
+  background-color: #fff;
+}
 
 @media (min-width: 600px) {
   .art_sobremi {
@@ -176,19 +179,16 @@
   .art_sobremi .cv {
     align-items: center;
     justify-content: center;
-    /* margin-top: 30px; */
     height: 97vh;
-    width: 70vw;
-    max-width: 600px;
+    width: 93vw;
+    min-width: 550px;
   }
   .art_sobremi .cv__caja--img {
-    /* width: 50vw; */
     max-width: 339px;
     margin-top: 30px;
-    /* margin-bottom: 30px; */
   }
   .art_sobremi .cv__caja--img .a_img {
-    width: 25vw;
+    width: 15vw;
     min-width: 160px;
     max-width: 225px;
     height: 5vh;
@@ -199,44 +199,42 @@
     min-width: 315px;
   }
   .art_sobremi .cv__p {
-    width: 50vw;
-    min-width: 375px;
-    max-width: 423px;
+    width: 90vw;
+    min-width: 490px;
     font-size: 1.5rem;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 }
 @media (min-width: 1200px) {
-  .cv {
+  .art_sobremi .cv {
     flex-direction: row;
     height: 85vh;
-    width: 100vw;
-    min-width: 1200px;
-    max-width: 1200px;
-    justify-content: center;
+    width: 120vw;
+    min-width: 1100px;
+    max-width: 1100px;
+    justify-content: space-evenly;
   }
-  .cv__caja--img {
-    width: 30vw;
+  .art_sobremi .cv__caja--img {
+    width: 400px;
   }
-  .cv__caja--img img, .cv__caja--img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .cv__caja--img img, .cv__caja--img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .cv__caja--img img, .cv__caja--img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .cv__caja--img img {
-    margin-top: 100px;
-    width: 25vw;
-    max-width: 400px;
+  .art_sobremi .cv__caja--img img, .art_sobremi .cv__caja--img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .art_sobremi .cv__caja--img img, .art_sobremi .cv__caja--img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .art_sobremi .cv__caja--img img, .art_sobremi .cv__caja--img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .art_sobremi .cv__caja--img img {
+    width: 400px;
   }
-  .cv__caja--img .a_img {
-    margin-top: 40px;
+  .art_sobremi .cv__caja--img .a_img {
     height: 7vh;
     text-align: center;
   }
-  .cv__p {
-    align-self: center;
-    margin-right: 110px;
-    margin-bottom: 120px;
+  .art_sobremi .cv__p {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    max-width: 500px;
+    width: 80vw;
   }
-  .cv__p p {
-    width: 42vw;
-    font-size: 1.45rem;
-    max-width: 537px;
+  .art_sobremi .cv__p p {
+    width: 80vw;
+    font-size: 1.7rem;
+    max-width: 500px;
   }
 }
 .conocimientos__main {
@@ -561,7 +559,7 @@
   font-family: "Roboto", sans-serif;
 }
 .serv__container .art__serv .serv__1-p, .serv__container .art__serv .serv__3-p, .serv__container .art__serv .serv__2-p {
-  min-width: 250px;
+  min-width: 200px;
   max-width: 450px;
   width: 40vw;
   text-align: justify;
@@ -571,7 +569,7 @@
   text-shadow: 0 0 1px #eee;
 }
 .serv__container .art__serv .serv__2 {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__2-img img {
   border-radius: 20px;
@@ -588,7 +586,7 @@
   font-family: "Roboto", sans-serif;
 }
 .serv__container .art__serv .serv__3 {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 .serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__3-img img {
   border-radius: 20px;
@@ -603,16 +601,24 @@
   font-family: "Roboto", sans-serif;
 }
 @media (min-width: 600px) {
-  .serv__container .titulo__serv {
+  .serv__container .titulo__serv h2 {
     font-size: 2.5rem;
+  }
+  .serv__container .art__serv {
+    height: 180vh;
+    max-height: 1800px;
   }
   .serv__container .art__serv .serv {
     justify-content: space-evenly;
     max-width: 797px;
+    height: 200vh;
+    max-height: 1800px;
   }
   .serv__container .art__serv .serv__1, .serv__container .art__serv .serv__2, .serv__container .art__serv .serv__3 {
     width: 34vw;
     max-width: 300px;
+    margin: 0;
+    padding: 0;
   }
   .serv__container .art__serv .serv__1-img, .serv__container .art__serv .serv__2-img, .serv__container .art__serv .serv__3-img {
     width: 25vw;
@@ -623,29 +629,39 @@
     align-items: stretch;
   }
   .serv__container .art__serv .serv__1 h3, .serv__container .art__serv .serv__2 h3, .serv__container .art__serv .serv__3 h3 {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
   }
   .serv__container .art__serv .serv__1-p, .serv__container .art__serv .serv__2-p, .serv__container .art__serv .serv__3-p {
     width: 34vw;
     min-width: 120px;
     max-width: 300px;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    height: 496.5px;
   }
   .serv__container .art__serv .serv__2 {
-    margin: 0;
+    margin-bottom: 27px;
+  }
+  .serv__container .art__serv .serv__2-p {
+    height: 468.92px;
   }
   .serv__container .art__serv .serv__3 {
+    margin: 0;
+    margin-top: 80px;
     flex-wrap: nowrap;
   }
 }
 @media (min-width: 1200px) {
-  .serv__container .titulo__serv {
+  .serv__container .titulo__serv h2 {
     font-size: 3rem;
+  }
+  .serv__container .art__serv {
+    max-height: 870px;
   }
   .serv__container .art__serv .serv {
     max-width: 1700px;
     justify-content: space-evenly;
     padding: 50px;
+    max-height: 825px;
   }
   .serv__container .art__serv .serv__1, .serv__container .art__serv .serv__2, .serv__container .art__serv .serv__3 {
     width: 25vw;
@@ -669,9 +685,12 @@
   }
   .serv__container .art__serv .serv__2 {
     margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
   }
   .serv__container .art__serv .serv__3 {
     margin: 0;
+    padding-top: 10px;
   }
   .serv__container .art__serv .serv__3 h3 {
     padding: 25px;
@@ -765,7 +784,9 @@
   padding: 0px;
   margin-top: 30px;
   font-family: "Roboto", sans-serif;
-  color: #000;
+  font-size: 1.3rem;
+  color: purple;
+  text-shadow: 0 0 5px #000;
   background-color: rgba(214, 128, 214, 0.705);
   border: none;
   border-radius: 10px;
@@ -774,6 +795,7 @@
   align-items: center;
 }
 .contacto__footer .form__boton:active {
+  color: #000;
   background: linear-gradient(to bottom, transparent, purple);
 }
 .contacto__footer .redes {

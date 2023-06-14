@@ -4,7 +4,9 @@
     justify-content: center;
     align-items: center;
 
-    .contacto__titulo{
+     //----TITULO----//
+    
+     .contacto__titulo{
         @include flex(center,stretch);
         font-family: $letra-titulo;
         font-size: 2.3rem;
@@ -17,6 +19,8 @@
         width: 100vw;
         
     }
+
+    //----FORMULARIO----//
 
     .form{
         @include flex(center,center);
@@ -86,13 +90,16 @@
                 padding: 0px;
                 margin-top: 30px;
                 font-family: $letra-texto;
-                color: #000;
+                font-size: 1.3rem;
+                color: purple;
+                text-shadow: 0 0 5px#000;
                 background-color: rgba(214, 128, 214, 0.705);
                 border: none;
                 border-radius: 10px;
                 @include flex(center,center);
 
                 &:active{
+                    color: #000;
                     background: linear-gradient(to bottom, transparent, purple);
                 }
 

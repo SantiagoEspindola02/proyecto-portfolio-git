@@ -5,6 +5,8 @@
     background-position:center;
     background-size: cover;
     background-image: url(../imagenes/trabajos.jpg);
+     
+    //----TITULO TRABAJOS----//
 
     .titulo__trabajos{
         color: #fff;
@@ -14,11 +16,15 @@
         padding: 25px;
     }
 
+    //----CONTENEDOR TRABAJOS----//
+
     .section__trabajos{
         flex-wrap: wrap;
         @include flex(center,center);
 
         height: 110vh;
+        
+        //----TRABAJO 1----//
 
         .section__1{
             background-color: #111a;
@@ -49,6 +55,8 @@
             }
         }
 
+         //----TRABAJO 2----//
+
         .section__2{
             @extend.section__1;
             margin-top: 30px;
@@ -71,6 +79,8 @@
 
     }
 }
+
+    //----RESPONSIVE TABLET----//
 
 @media(min-width:600px){
     .art__trabajos{
@@ -102,6 +112,8 @@
         }
     }
 }
+
+    //----RESPONSIVE DESKTOP----//
 
 @media(min-width:1200px){
 
