@@ -13,45 +13,45 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-}
-
-.container-fluid {
+  justify-content: start;
   align-items: center;
+  flex-direction: column;
 }
-.container-fluid .logo__header {
-  margin: 35px 15px;
+.inicio .header__index .navbar .container-fluid {
+  align-items: start;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  min-width: 410px;
+}
+.inicio .header__index .navbar .container-fluid .logo__header {
   width: 8vw;
   min-width: 45px;
 }
-.container-fluid .navbar-toggler {
+.inicio .header__index .navbar .container-fluid .navbar-toggler {
   font-size: 1.5rem;
   background-color: #fff;
 }
-
-.navbar-collapse {
+.inicio .header__index .navbar .container-fluid .navbar-collapse {
   margin-top: 15px;
 }
-.navbar-collapse li {
+.inicio .header__index .navbar .container-fluid .navbar-collapse ul li {
   padding: 10px;
 }
-.navbar-collapse li .nav-link {
+.inicio .header__index .navbar .container-fluid .navbar-collapse ul li .nav-link {
   color: #fff;
   text-shadow: 0px 0px 10px rgb(193, 214, 214), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
 }
-.navbar-collapse li .nav-link:hover {
+.inicio .header__index .navbar .container-fluid .navbar-collapse ul li .nav-link:hover {
   color: rgb(8, 8, 68);
 }
-
-.titulo {
+.inicio .titulo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 220px;
+  margin-bottom: 150px;
+  margin-top: 30px;
   font-family: "Roboto", sans-serif;
   color: #fff;
   text-shadow: 2px 2px 10px rgb(49, 161, 146), 2px 2px 20px rgb(193, 214, 214), 2px 2px 40px rgb(193, 214, 214);
@@ -59,49 +59,64 @@
   text-align: center;
   font-size: 1.5rem;
 }
-.titulo .titulo__span {
+.inicio .titulo .titulo__span {
   font-size: 4.3rem;
   font-family: "Castoro Titling", cursive;
 }
+.inicio .footer__index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 100px;
+  min-width: 269px;
+}
 
 @media (min-width: 576px) {
-  .inicio {
-    justify-content: center;
+  .inicio .header__index .navbar .container-fluid {
+    margin-bottom: 0;
+    margin-bottom: 100px;
   }
-  .navbar-collapse ul {
+  .inicio .header__index .navbar .container-fluid .navbar-collapse ul {
     display: flex;
     justify-content: center;
     align-items: stretch;
     gap: 12px;
-    margin-right: 5px;
+    margin-right: 2px;
   }
-  .navbar-collapse ul li {
+  .inicio .header__index .navbar .container-fluid .navbar-collapse ul li {
     padding: 0;
   }
-  .navbar-collapse ul li .nav-link {
+  .inicio .header__index .navbar .container-fluid .navbar-collapse ul li .nav-link {
     display: block;
     font-size: 1.09rem;
   }
-  .titulo h1 {
+  .inicio .titulo {
+    margin-top: 120px;
+  }
+  .inicio .titulo h1 {
     margin-bottom: 0;
     font-size: 1.8rem;
     line-height: 80px;
   }
-  .titulo h1 .titulo__span {
+  .inicio .titulo h1 .titulo__span {
     font-size: 5.4rem;
   }
 }
 @media (min-width: 1000px) {
-  .logo-header {
+  .header__index .navbar .container-fluid .logo-header {
     margin-left: 50px;
     max-width: 80px;
   }
-  .navbar-collapse ul {
+  .header__index .navbar .container-fluid .navbar-collapse ul {
     gap: 50px;
     margin-right: 40px;
   }
-  .navbar-collapse ul li .nav-link {
-    font-size: 1.4rem;
+  .header__index .navbar .container-fluid .navbar-collapse ul li {
+    font-size: 2rem;
+  }
+  .header__index .navbar .container-fluid .navbar-collapse ul li .nav-link {
+    font-size: 3rem;
   }
   .titulo h1 {
     margin-bottom: 0;
