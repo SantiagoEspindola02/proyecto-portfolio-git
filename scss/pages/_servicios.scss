@@ -1,3 +1,48 @@
+.header__servicios{
+
+    .navbar{
+        .container-fluid{
+            align-items: start;
+            // margin-top: 20px;
+            // margin-bottom: 200px;
+            min-width: 320px;
+                    
+            .logo__header{
+               
+                width: 8vw;
+                min-width: 45px;
+            }
+                    
+            .navbar-toggler{
+                font-size: 1.5rem;
+                background-color: #fff;
+            }
+            
+            .navbar-collapse{
+                margin-top: 15px;
+                        
+                ul{
+                    li{
+                        padding: 10px;
+                            
+                        .nav-link{
+                            color: #000;
+                            text-shadow: 0px 0px 10px rgb(193, 214, 214), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
+                            font-size: 1rem;
+                            font-family: $letra-texto;
+                
+                            &:hover{
+                                color: purple;
+                            }
+                        }
+                    }
+                }
+            }
+         }
+    
+    }
+}
+
 .serv__container{
 
     //----TITULO SERVICIOS----//
@@ -32,6 +77,7 @@
             background-color: #333333ff;
             width: 120vw;
             padding: 20px;
+            gap: 20px;
 
 
             // ----SERVICIO 1----//
@@ -42,8 +88,8 @@
                 flex-wrap: wrap;
                 flex-direction: column;
                 text-align: justify;
-                @include width(250px,450px);
-                width: 44.56vw;
+                @include width(150px,450px);
+                width: 50vw;
 
                 &-img{
 
@@ -154,7 +200,36 @@
 
     //----RESPONSIVE TABLET----//
 
-@media(min-width:600px){
+@media(min-width:576px){
+
+    .header__servicios{
+
+        .navbar{
+
+            .container-fluid{
+                margin-bottom: 0;
+    
+                .navbar-collapse{
+                    ul{
+                        @include flex(center,stretch);
+                        gap: 12px;
+                        margin-right: 2px;
+                
+                        li{
+                            padding: 0;
+                
+                            .nav-link{
+                                display: block;
+                                font-size: 1.09rem;
+            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .serv__container{
 
         .titulo__serv{
@@ -166,20 +241,20 @@
 
         .art__serv{
             height: 180vh;
-            max-height: 1800px;
+            max-height: 2100px;
 
             .serv{
 
                 justify-content: space-evenly;
-                max-width: 797px;
+                max-width: 702px;
                 height: 200vh;
-                max-height: 1800px;
+                max-height: 2100px;
                 // width: 80vw;
 
                 &__1{
 
                     width: 34vw;
-                    max-width: 300px;
+                    max-width: 255px;
                     margin: 0;
                     padding: 0;
 
@@ -187,7 +262,7 @@
                     &-img{
 
                         width: 25vw;
-                        @include width(190px,263.5px);
+                        @include width(190px,250px);
                         @include flex(center,stretch);
                     }
 
@@ -199,7 +274,7 @@
 
                         width: 34vw;
                         // width: 232.88px;
-                        @include width(120px,300px);
+                        @include width(120px,250px);
                         font-size: 1.5rem;
                         height:496.5px;
                     }
@@ -216,7 +291,7 @@
                 &__3{
 
                     margin: 0;
-                    margin-top: 80px;
+                    margin-top: 180px;
                     flex-wrap: nowrap;
                 }
             }
@@ -227,7 +302,35 @@
     //----RESPONSIVE DESKTOP----//
 
 @media(min-width:1200px){
+    .header__servicios{
+
+        .navbar{
+
+            .container-fluid{
+                .logo-header{
+                    margin-left: 50px;
+                    max-width: 80px;
+                }
+            
+                .navbar-collapse{
+                    ul{
+                        gap: 50px;
+                        margin-right: 40px;
+                
+                        li{
+                            font-size: 2rem;
+                            .nav-link{
+                                font-size: 2rem;
+                        
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     .serv__container{
+        margin-top: 50px;
 
         .titulo__serv{
 
@@ -237,14 +340,14 @@
         }
 
         .art__serv{
-            max-height: 870px;
+            max-height: 950px;
 
             .serv{
 
                 max-width: 1700px;
                 justify-content: space-evenly;
                 padding: 50px;
-                max-height: 825px;
+                max-height: 890px;
 
                 &__1{
 

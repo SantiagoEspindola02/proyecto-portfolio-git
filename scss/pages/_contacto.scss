@@ -1,3 +1,51 @@
+.header__contacto{
+    background-color: #fff;
+
+    .navbar{
+        .container-fluid{
+            align-items: start;
+            // margin-top: 20px;
+            // margin-bottom: 200px;
+            min-width: 320px;
+            background-color: #fff;
+                    
+            .logo__header{
+               
+                width: 8vw;
+                min-width: 45px;
+            }
+                    
+            .navbar-toggler{
+                font-size: 1.5rem;
+                background-color: #fff;
+            }
+            
+            .navbar-collapse{
+                margin-top: 15px;
+                        
+                ul{
+                    li{
+                        padding: 10px;
+                            
+                        .nav-link{
+                            color: purple;
+                            text-shadow: 0px 0px 10px rgb(68, 6, 68);
+                            font-size: 1rem;
+                            font-family: $letra-texto;
+                
+                            &:hover{
+                                color: #fff;
+                                text-shadow: 3px 3px 6px #000;
+                            }
+                        }
+                    }
+                }
+            }
+         }
+    
+    }
+}
+
 .contacto__footer{
     flex-direction: column;
     display: flex;
@@ -12,6 +60,7 @@
         font-size: 2.3rem;
         color: purple;
         text-shadow: 0 0 5px#000;
+        border-top: none;
         border-bottom: 1px solid #222;
         box-shadow: 0 0 10px #000;
         padding-top: 30px;
@@ -121,4 +170,65 @@
 
     }
 
+}
+
+//----RESPONSIVE TABLET----//
+
+@media (min-width:576px){
+    .header__contacto{
+
+        .navbar{
+    
+            .container-fluid{
+                margin-bottom: 0;
+    
+                .navbar-collapse{
+                    ul{
+                        @include flex(center,stretch);
+                        gap: 12px;
+                        margin-right: 2px;
+                
+                        li{
+                            padding: 0;
+                
+                            .nav-link{
+                                display: block;
+                                font-size: 1.09rem;
+            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .header__contacto{
+
+        .navbar{
+
+            .container-fluid{
+                .logo-header{
+                    margin-left: 50px;
+                    max-width: 80px;
+                }
+            
+                .navbar-collapse{
+                    ul{
+                        gap: 50px;
+                        margin-right: 40px;
+                
+                        li{
+                            .nav-link{
+                                font-size: 1.5rem;
+                        
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
