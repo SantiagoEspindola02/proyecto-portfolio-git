@@ -445,10 +445,14 @@
     margin-right: 40px;
   }
   .header__conocimientos .navbar .container-fluid .navbar-collapse ul li .nav-link {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .conocimientos__main {
-    height: 140vh;
+    height: 150vh;
+  }
+  .conocimientos__main .conocimientos__h2 {
+    padding: 75px;
+    font-size: 3rem;
   }
   .conocimientos__main .conocimientos__recuadro .conocimientos__art {
     display: flex;
@@ -489,28 +493,58 @@
     margin-top: 30px;
   }
 }
-.art__trabajos {
-  height: 126vh;
-  width: 100vw;
+.body__trabajos {
   background-position: center;
   background-size: cover;
   background-image: url(../imagenes/trabajos.jpg);
+  height: 150vh;
 }
-.art__trabajos .titulo__trabajos {
+.body__trabajos .header__trabajos .navbar .container-fluid {
+  align-items: start;
+  min-width: 320px;
+}
+.body__trabajos .header__trabajos .navbar .container-fluid .logo__header {
+  width: 8vw;
+  min-width: 45px;
+}
+.body__trabajos .header__trabajos .navbar .container-fluid .navbar-toggler {
+  font-size: 1.5rem;
+  background-color: #fff;
+}
+.body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse {
+  margin-top: 15px;
+}
+.body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse ul li {
+  padding: 10px;
+}
+.body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse ul li .nav-link {
+  color: #fff;
+  text-shadow: 0px 0px 10px rgb(49, 161, 146), 0px 0px 10px rgb(49, 161, 146);
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse ul li .nav-link:hover {
+  color: rgb(49, 161, 146);
+}
+.body__trabajos .art__trabajos {
+  height: 126vh;
+  width: 95vw;
+}
+.body__trabajos .art__trabajos .titulo__trabajos {
   color: #fff;
   font-family: "Castoro Titling", cursive;
   text-align: center;
   text-shadow: 0px 0px 10px rgb(49, 161, 146), 0px 0px 10px rgb(49, 161, 146);
   padding: 25px;
 }
-.art__trabajos .section__trabajos {
+.body__trabajos .art__trabajos .section__trabajos {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 110vh;
 }
-.art__trabajos .section__trabajos .section__1, .art__trabajos .section__trabajos .section__2 {
+.body__trabajos .art__trabajos .section__trabajos .section__1, .body__trabajos .art__trabajos .section__trabajos .section__2 {
   background-color: rgba(17, 17, 17, 0.6666666667);
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgb(49, 161, 146);
@@ -520,61 +554,106 @@
   justify-content: center;
   align-items: center;
 }
-.art__trabajos .section__trabajos .section__1 .trabajo__1, .art__trabajos .section__trabajos .section__2 .trabajo__1, .art__trabajos .section__trabajos .section__2 .trabajo__2 {
+.body__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 {
   width: 80vw;
 }
-.art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__img1 img, .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__img1 img, .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__img1 img {
+.body__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__img1 img, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__img1 img, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__img1 img {
   border-radius: 20px;
 }
-.art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
+.body__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
   margin-top: 15px;
   text-align: justify;
   color: white;
   text-shadow: 0px 0px 10px rgb(49, 161, 146), 0px 0px 10px rgb(49, 161, 146);
 }
-.art__trabajos .section__trabajos .section__2 {
+.body__trabajos .art__trabajos .section__trabajos .section__2 {
   margin-top: 30px;
 }
-.art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__img2 img {
+.body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__img2 img {
   border-radius: 20px;
 }
-@media (min-width: 600px) {
-  .art__trabajos {
-    height: 215vh;
+@media (min-width: 576px) {
+  .body__trabajos {
+    height: 200vh;
   }
-  .art__trabajos .titulo__trabajos {
+  .body__trabajos .header__trabajos .navbar .container-fluid {
+    margin-bottom: 0;
+  }
+  .body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse ul {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+    margin-right: 2px;
+  }
+  .body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse ul li {
+    padding: 0;
+  }
+  .body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse ul li .nav-link {
+    display: block;
+    font-size: 1.09rem;
+  }
+  .body__trabajos .art__trabajos {
+    height: 225vh;
+  }
+  .body__trabajos .art__trabajos .titulo__trabajos h2 {
     font-size: 2.5rem;
     padding: 50px;
   }
-  .art__trabajos .section__trabajos .section__1, .art__trabajos .section__trabajos .section__2 {
+  .body__trabajos .art__trabajos .section__trabajos .section__1, .body__trabajos .art__trabajos .section__trabajos .section__2 {
     max-width: 775px;
   }
-  .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
+  .body__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
     font-size: 1.8rem;
     margin-top: 35px;
   }
-  .art__trabajos .section__trabajos .section__2 {
+  .body__trabajos .art__trabajos .section__trabajos .section__2 {
     margin-top: 80px;
   }
 }
 @media (min-width: 1200px) {
-  .art__trabajos {
-    height: 135vh;
+  .body__trabajos {
+    height: 100vh;
   }
-  .art__trabajos .titulo__trabajos {
+  .body__trabajos .header__trabajos .navbar .container-fluid .logo-header {
+    margin-left: 50px;
+    max-width: 80px;
+  }
+  .body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse ul {
+    gap: 50px;
+    margin-right: 40px;
+  }
+  .body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse ul li {
+    font-size: 2rem;
+  }
+  .body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse ul li .nav-link {
+    font-size: 2rem;
+  }
+  .body__trabajos .main__trabajos {
+    height: 165vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .body__trabajos .main__trabajos .art__trabajos {
+    height: 165vh;
+  }
+  .body__trabajos .main__trabajos .art__trabajos .titulo__trabajos h2 {
+    padding: 75px;
     font-size: 3rem;
   }
-  .art__trabajos .section__trabajos {
+  .body__trabajos .main__trabajos .art__trabajos .section__trabajos {
     display: grid;
-    justify-content: center;
+    justify-items: center;
     grid-template-columns: repeat(2, 1fr);
   }
-  .art__trabajos .section__trabajos .section__1, .art__trabajos .section__trabajos .section__2 {
-    height: 850px;
+  .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 {
+    height: 965px;
     width: 45vw;
     margin: auto;
   }
-  .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
+  .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
     font-size: 1.8rem;
     margin-top: 50px;
   }
@@ -798,6 +877,7 @@
   }
   .serv__container .titulo__serv h2 {
     font-size: 3rem;
+    padding: 75px;
   }
   .serv__container .art__serv {
     max-height: 950px;
@@ -891,8 +971,7 @@
   color: purple;
   text-shadow: 0 0 5px #000;
   border-top: none;
-  border-bottom: 1px solid #222;
-  box-shadow: 0 0 10px #000;
+  border-bottom: 1px solid purple;
   padding-top: 30px;
   padding-bottom: 12px;
   width: 100vw;
@@ -1020,7 +1099,11 @@
     margin-right: 40px;
   }
   .header__contacto .navbar .container-fluid .navbar-collapse ul li .nav-link {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+  .contacto__footer .contacto__titulo h2 {
+    font-size: 3rem;
+    padding-top: 75px;
   }
 }
 

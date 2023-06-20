@@ -310,7 +310,7 @@
                 
                         li{
                             .nav-link{
-                                font-size: 1.5rem;
+                                font-size: 2rem;
                         
                             }
                         }
@@ -321,9 +321,13 @@
     }
 
     .conocimientos__main{
-        height: 140vh;
+        height: 150vh;
+        
+        .conocimientos__h2{
+            padding: 75px;
+            font-size: 3rem;
+        }
 
-    
       .conocimientos__recuadro{
 
         .conocimientos__art{
