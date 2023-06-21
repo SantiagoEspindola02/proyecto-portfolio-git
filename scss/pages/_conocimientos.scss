@@ -109,13 +109,13 @@
             margin-top: 30px;
 
             .lenguaje1__caja-img{
-                width: 40vw;
+                width: 44.56vw;
                 min-width: 250px;
                 max-width: 450px;
 
                 img{
                     height: 25vh;
-                    width: 40vw;
+                    width: 44.56vw;
                     min-width: 250px;
                     max-width: 450px;
                     object-fit: cover;
@@ -131,7 +131,7 @@
             
                 margin-top: 10px;
                 height: 40vh;
-                width: 50vw;
+                width: 44.56vw;
                 min-width: 240px;
                 max-width: 440px;
                 
@@ -235,6 +235,14 @@
 
     .conocimientos__main{
         height: 268vh;
+
+        .conocimientos{
+            padding: 50px;
+
+            &__h2{
+                font-size: 2.5rem;
+            }
+        }
     }
     .conocimientos__recuadro{
 

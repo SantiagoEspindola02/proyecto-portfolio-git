@@ -152,7 +152,7 @@
   margin-top: 25px;
   text-align: justify;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   text-shadow: 0px 0px 10px rgb(49, 161, 146), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
 }
@@ -339,13 +339,13 @@
   margin-top: 30px;
 }
 .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje1__caja-img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje1__caja-img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje1__caja-img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img {
-  width: 40vw;
+  width: 44.56vw;
   min-width: 250px;
   max-width: 450px;
 }
 .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje1 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje1 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje1 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje1 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje1 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje1 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje1 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje1 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje1 .lenguaje1__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje1 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje1__caja-img .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje1__caja-img .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje1__caja-img .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje1__caja-img .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje1__caja-img .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje1__caja-img .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje1__caja-img .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje1__caja-img .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje1__caja-img .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje1__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje1__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje1__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje1__caja-img .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje1__caja-img .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje1__caja-img .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje1__caja-img .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje1__caja-img .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje1__caja-img .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje1__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje1__caja-img .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje1__caja-img .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje1__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje1__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje1__caja-img .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje1__caja-img .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje1__caja-img .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje1__caja-img .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .lenguaje1__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .conocimientos__lenguaje3 .lenguaje3__caja-img .conocimientos__lenguaje2 .lenguaje2__caja-img img {
   height: 25vh;
-  width: 40vw;
+  width: 44.56vw;
   min-width: 250px;
   max-width: 450px;
   object-fit: cover;
@@ -358,7 +358,7 @@
   text-shadow: 2px 2px 3px #616060;
   margin-top: 10px;
   height: 40vh;
-  width: 50vw;
+  width: 44.56vw;
   min-width: 240px;
   max-width: 440px;
 }
@@ -391,6 +391,12 @@
   }
   .conocimientos__main {
     height: 268vh;
+  }
+  .conocimientos__main .conocimientos {
+    padding: 50px;
+  }
+  .conocimientos__main .conocimientos__h2 {
+    font-size: 2.5rem;
   }
   .conocimientos__recuadro .conocimientos__art {
     height: 250vh;
@@ -526,25 +532,35 @@
 .body__trabajos .header__trabajos .navbar .container-fluid .navbar-collapse ul li .nav-link:hover {
   color: rgb(49, 161, 146);
 }
-.body__trabajos .art__trabajos {
-  height: 126vh;
+.body__trabajos .main__trabajos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 2050px;
+}
+.body__trabajos .main__trabajos .art__trabajos {
+  height: 2000px;
   width: 95vw;
 }
-.body__trabajos .art__trabajos .titulo__trabajos {
+.body__trabajos .main__trabajos .art__trabajos .titulo__trabajos {
   color: #fff;
   font-family: "Castoro Titling", cursive;
   text-align: center;
   text-shadow: 0px 0px 10px rgb(49, 161, 146), 0px 0px 10px rgb(49, 161, 146);
   padding: 25px;
 }
-.body__trabajos .art__trabajos .section__trabajos {
+.body__trabajos .main__trabajos .art__trabajos .titulo__trabajos h2 {
+  font-size: 2.8rem;
+}
+.body__trabajos .main__trabajos .art__trabajos .section__trabajos {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 110vh;
 }
-.body__trabajos .art__trabajos .section__trabajos .section__1, .body__trabajos .art__trabajos .section__trabajos .section__2 {
+.body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 {
   background-color: rgba(17, 17, 17, 0.6666666667);
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgb(49, 161, 146);
@@ -554,22 +570,24 @@
   justify-content: center;
   align-items: center;
 }
-.body__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 {
+.body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 {
   width: 80vw;
 }
-.body__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__img1 img, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__img1 img, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__img1 img {
+.body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__img1 .img__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__img1 .img__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__img1 .img__1 {
   border-radius: 20px;
 }
-.body__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
+.body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
   margin-top: 15px;
   text-align: justify;
   color: white;
   text-shadow: 0px 0px 10px rgb(49, 161, 146), 0px 0px 10px rgb(49, 161, 146);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
 }
-.body__trabajos .art__trabajos .section__trabajos .section__2 {
+.body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 {
   margin-top: 30px;
 }
-.body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__img2 img {
+.body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__img2 .img__2 {
   border-radius: 20px;
 }
 @media (min-width: 576px) {
@@ -593,21 +611,24 @@
     display: block;
     font-size: 1.09rem;
   }
-  .body__trabajos .art__trabajos {
+  .body__trabajos .main__trabajos {
+    height: 230vh;
+  }
+  .body__trabajos .main__trabajos .art__trabajos {
     height: 225vh;
   }
-  .body__trabajos .art__trabajos .titulo__trabajos h2 {
+  .body__trabajos .main__trabajos .art__trabajos .titulo__trabajos h2 {
     font-size: 2.5rem;
     padding: 50px;
   }
-  .body__trabajos .art__trabajos .section__trabajos .section__1, .body__trabajos .art__trabajos .section__trabajos .section__2 {
+  .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 {
     max-width: 775px;
   }
-  .body__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .body__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
+  .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
     font-size: 1.8rem;
     margin-top: 35px;
   }
-  .body__trabajos .art__trabajos .section__trabajos .section__2 {
+  .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 {
     margin-top: 80px;
   }
 }
@@ -630,7 +651,7 @@
     font-size: 2rem;
   }
   .body__trabajos .main__trabajos {
-    height: 165vh;
+    height: 160vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -649,7 +670,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 {
-    height: 965px;
+    align-items: start;
+    height: 120vh;
     width: 45vw;
     margin: auto;
   }
@@ -658,53 +680,52 @@
     margin-top: 50px;
   }
 }
-.header__servicios .navbar .container-fluid {
+.body__servicios .header__servicios .navbar .container-fluid {
   align-items: start;
   min-width: 320px;
 }
-.header__servicios .navbar .container-fluid .logo__header {
+.body__servicios .header__servicios .navbar .container-fluid .logo__header {
   width: 8vw;
   min-width: 45px;
 }
-.header__servicios .navbar .container-fluid .navbar-toggler {
+.body__servicios .header__servicios .navbar .container-fluid .navbar-toggler {
   font-size: 1.5rem;
   background-color: #fff;
 }
-.header__servicios .navbar .container-fluid .navbar-collapse {
+.body__servicios .header__servicios .navbar .container-fluid .navbar-collapse {
   margin-top: 15px;
 }
-.header__servicios .navbar .container-fluid .navbar-collapse ul li {
+.body__servicios .header__servicios .navbar .container-fluid .navbar-collapse ul li {
   padding: 10px;
 }
-.header__servicios .navbar .container-fluid .navbar-collapse ul li .nav-link {
+.body__servicios .header__servicios .navbar .container-fluid .navbar-collapse ul li .nav-link {
   color: #000;
   text-shadow: 0px 0px 10px rgb(193, 214, 214), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
 }
-.header__servicios .navbar .container-fluid .navbar-collapse ul li .nav-link:hover {
+.body__servicios .header__servicios .navbar .container-fluid .navbar-collapse ul li .nav-link:hover {
   color: purple;
 }
-
-.serv__container .titulo__serv {
+.body__servicios .serv__container .titulo__serv {
   display: flex;
   justify-content: center;
   align-items: stretch;
 }
-.serv__container .titulo__serv h2 {
+.body__servicios .serv__container .titulo__serv h2 {
   padding: 25px;
   font-family: "Castoro Titling", cursive;
   font-size: 2.8rem;
   color: purple;
   text-shadow: 0 0 5px #000;
 }
-.serv__container .art__serv {
+.body__servicios .serv__container .art__serv {
   display: flex;
   justify-content: center;
   align-items: stretch;
   padding: 15px;
 }
-.serv__container .art__serv .serv {
+.body__servicios .serv__container .art__serv .serv {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -713,11 +734,11 @@
   flex-wrap: wrap;
   border-radius: 30px;
   background-color: #333333;
-  width: 120vw;
+  width: 90vw;
   padding: 20px;
   gap: 20px;
 }
-.serv__container .art__serv .serv__1, .serv__container .art__serv .serv__3, .serv__container .art__serv .serv__2 {
+.body__servicios .serv__container .art__serv .serv__1, .body__servicios .serv__container .art__serv .serv__3, .body__servicios .serv__container .art__serv .serv__2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -726,19 +747,19 @@
   text-align: justify;
   min-width: 150px;
   max-width: 450px;
-  width: 50vw;
+  width: 100vw;
 }
-.serv__container .art__serv .serv__1-img, .serv__container .art__serv .serv__3-img, .serv__container .art__serv .serv__2-img {
+.body__servicios .serv__container .art__serv .serv__1-img, .body__servicios .serv__container .art__serv .serv__3-img, .body__servicios .serv__container .art__serv .serv__2-img {
   object-fit: cover;
   min-width: 250px;
   max-width: 450px;
   width: 40vw;
 }
-.serv__container .art__serv .serv__1-img img, .serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__1-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__1-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__3-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__1-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__1-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__3-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__1-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__1-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__3-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__2-img img {
+.body__servicios .serv__container .art__serv .serv__1-img img, .body__servicios .serv__container .art__serv .serv__3-img img, .body__servicios .serv__container .art__serv .serv__2-img img {
   border-radius: 20px;
   border: 2px solid #222;
 }
-.serv__container .art__serv .serv__1 h3, .serv__container .art__serv .serv__3 h3, .serv__container .art__serv .serv__2 h3 {
+.body__servicios .serv__container .art__serv .serv__1 h3, .body__servicios .serv__container .art__serv .serv__3 h3, .body__servicios .serv__container .art__serv .serv__2 h3 {
   color: purple;
   text-shadow: 0 0 5px #000;
   font-size: 1.9rem;
@@ -748,7 +769,7 @@
   align-items: stretch;
   font-family: "Roboto", sans-serif;
 }
-.serv__container .art__serv .serv__1-p, .serv__container .art__serv .serv__3-p, .serv__container .art__serv .serv__2-p {
+.body__servicios .serv__container .art__serv .serv__1-p, .body__servicios .serv__container .art__serv .serv__3-p, .body__servicios .serv__container .art__serv .serv__2-p {
   min-width: 200px;
   max-width: 450px;
   width: 40vw;
@@ -758,14 +779,14 @@
   color: #aaa;
   text-shadow: 0 0 1px #eee;
 }
-.serv__container .art__serv .serv__2 {
+.body__servicios .serv__container .art__serv .serv__2 {
   padding-top: 60px;
 }
-.serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__2-img img, .serv__container .art__serv .serv__2-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__2-img img {
+.body__servicios .serv__container .art__serv .serv__2-img img {
   border-radius: 20px;
   border: 2px solid #222;
 }
-.serv__container .art__serv .serv__2 h3 {
+.body__servicios .serv__container .art__serv .serv__2 h3 {
   color: purple;
   text-shadow: 0 0 5px #000;
   font-size: 1.9rem;
@@ -775,14 +796,14 @@
   align-items: stretch;
   font-family: "Roboto", sans-serif;
 }
-.serv__container .art__serv .serv__3 {
+.body__servicios .serv__container .art__serv .serv__3 {
   padding-top: 60px;
 }
-.serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .serv__container .art__serv .serv__3-img img, .serv__container .art__serv .serv__3-img .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .serv__container .art__serv .serv__3-img img {
+.body__servicios .serv__container .art__serv .serv__3-img img {
   border-radius: 20px;
   border: 2px solid #222;
 }
-.serv__container .art__serv .serv__3 h3 {
+.body__servicios .serv__container .art__serv .serv__3 h3 {
   color: purple;
   text-shadow: 0 0 5px #000;
   font-size: 1.9rem;
@@ -791,133 +812,147 @@
   font-family: "Roboto", sans-serif;
 }
 @media (min-width: 576px) {
-  .header__servicios .navbar .container-fluid {
+  .body__servicios .header__servicios .navbar .container-fluid {
     margin-bottom: 0;
   }
-  .header__servicios .navbar .container-fluid .navbar-collapse ul {
+  .body__servicios .header__servicios .navbar .container-fluid .navbar-collapse ul {
     display: flex;
     justify-content: center;
     align-items: stretch;
     gap: 12px;
     margin-right: 2px;
   }
-  .header__servicios .navbar .container-fluid .navbar-collapse ul li {
+  .body__servicios .header__servicios .navbar .container-fluid .navbar-collapse ul li {
     padding: 0;
   }
-  .header__servicios .navbar .container-fluid .navbar-collapse ul li .nav-link {
+  .body__servicios .header__servicios .navbar .container-fluid .navbar-collapse ul li .nav-link {
     display: block;
     font-size: 1.09rem;
   }
-  .serv__container .titulo__serv h2 {
+  .body__servicios .serv__container {
+    height: 205vh;
+  }
+  .body__servicios .serv__container .titulo__serv h2 {
+    padding: 50px;
     font-size: 2.5rem;
   }
-  .serv__container .art__serv {
+  .body__servicios .serv__container .art__serv {
     height: 180vh;
     max-height: 2100px;
   }
-  .serv__container .art__serv .serv {
+  .body__servicios .serv__container .art__serv .serv {
     justify-content: space-evenly;
     max-width: 702px;
-    height: 200vh;
-    max-height: 2100px;
+    height: 230vh;
+    max-height: 1940px;
+    width: 98vw;
   }
-  .serv__container .art__serv .serv__1, .serv__container .art__serv .serv__2, .serv__container .art__serv .serv__3 {
+  .body__servicios .serv__container .art__serv .serv__1, .body__servicios .serv__container .art__serv .serv__2, .body__servicios .serv__container .art__serv .serv__3 {
     width: 34vw;
     max-width: 255px;
     margin: 0;
     padding: 0;
+    flex-direction: row;
   }
-  .serv__container .art__serv .serv__1-img, .serv__container .art__serv .serv__2-img, .serv__container .art__serv .serv__3-img {
-    width: 25vw;
+  .body__servicios .serv__container .art__serv .serv__1-img, .body__servicios .serv__container .art__serv .serv__2-img, .body__servicios .serv__container .art__serv .serv__3-img {
+    width: 34vw;
     min-width: 190px;
     max-width: 250px;
     display: flex;
     justify-content: center;
     align-items: stretch;
   }
-  .serv__container .art__serv .serv__1 h3, .serv__container .art__serv .serv__2 h3, .serv__container .art__serv .serv__3 h3 {
+  .body__servicios .serv__container .art__serv .serv__1 h3, .body__servicios .serv__container .art__serv .serv__2 h3, .body__servicios .serv__container .art__serv .serv__3 h3 {
     font-size: 2.5rem;
   }
-  .serv__container .art__serv .serv__1-p, .serv__container .art__serv .serv__2-p, .serv__container .art__serv .serv__3-p {
+  .body__servicios .serv__container .art__serv .serv__1-p, .body__servicios .serv__container .art__serv .serv__2-p, .body__servicios .serv__container .art__serv .serv__3-p {
     width: 34vw;
-    min-width: 120px;
+    min-width: 218px;
     max-width: 250px;
     font-size: 1.5rem;
     height: 496.5px;
   }
-  .serv__container .art__serv .serv__2 {
+  .body__servicios .serv__container .art__serv .serv__2 {
     margin-bottom: 27px;
   }
-  .serv__container .art__serv .serv__2-p {
+  .body__servicios .serv__container .art__serv .serv__2-p {
     height: 468.92px;
   }
-  .serv__container .art__serv .serv__3 {
+  .body__servicios .serv__container .art__serv .serv__3 {
     margin: 0;
     margin-top: 180px;
     flex-wrap: nowrap;
+    flex-direction: column;
   }
 }
 @media (min-width: 1200px) {
-  .header__servicios .navbar .container-fluid .logo-header {
+  .body__servicios {
+    height: 100vh;
+  }
+  .body__servicios .header__servicios .navbar .container-fluid .logo-header {
     margin-left: 50px;
     max-width: 80px;
   }
-  .header__servicios .navbar .container-fluid .navbar-collapse ul {
+  .body__servicios .header__servicios .navbar .container-fluid .navbar-collapse ul {
     gap: 50px;
     margin-right: 40px;
   }
-  .header__servicios .navbar .container-fluid .navbar-collapse ul li {
+  .body__servicios .header__servicios .navbar .container-fluid .navbar-collapse ul li {
     font-size: 2rem;
   }
-  .header__servicios .navbar .container-fluid .navbar-collapse ul li .nav-link {
+  .body__servicios .header__servicios .navbar .container-fluid .navbar-collapse ul li .nav-link {
     font-size: 2rem;
   }
-  .serv__container {
+  .body__servicios .serv__container {
     margin-top: 50px;
+    height: 20vh;
   }
-  .serv__container .titulo__serv h2 {
+  .body__servicios .serv__container .titulo__serv h2 {
     font-size: 3rem;
     padding: 75px;
   }
-  .serv__container .art__serv {
-    max-height: 950px;
+  .body__servicios .serv__container .art__serv {
+    max-height: 1080px;
   }
-  .serv__container .art__serv .serv {
+  .body__servicios .serv__container .art__serv .serv {
     max-width: 1700px;
     justify-content: space-evenly;
     padding: 50px;
-    max-height: 890px;
+    max-height: 1000px;
+    align-items: start;
   }
-  .serv__container .art__serv .serv__1, .serv__container .art__serv .serv__2, .serv__container .art__serv .serv__3 {
-    width: 25vw;
+  .body__servicios .serv__container .art__serv .serv__1, .body__servicios .serv__container .art__serv .serv__2, .body__servicios .serv__container .art__serv .serv__3 {
+    width: 304.67px;
     max-width: 450px;
   }
-  .serv__container .art__serv .serv__1-img, .serv__container .art__serv .serv__2-img, .serv__container .art__serv .serv__3-img {
+  .body__servicios .serv__container .art__serv .serv__1-img, .body__servicios .serv__container .art__serv .serv__2-img, .body__servicios .serv__container .art__serv .serv__3-img {
     width: 25vw;
     min-width: 190px;
     max-width: 263.5px;
   }
-  .serv__container .art__serv .serv__1 h3, .serv__container .art__serv .serv__2 h3, .serv__container .art__serv .serv__3 h3 {
+  .body__servicios .serv__container .art__serv .serv__1 h3, .body__servicios .serv__container .art__serv .serv__2 h3, .body__servicios .serv__container .art__serv .serv__3 h3 {
     font-size: 2.4rem;
     padding: 25px;
     margin: 0;
   }
-  .serv__container .art__serv .serv__1-p, .serv__container .art__serv .serv__2-p, .serv__container .art__serv .serv__3-p {
-    width: 25vw;
-    min-width: 120px;
-    max-width: 450px;
+  .body__servicios .serv__container .art__serv .serv__1-p, .body__servicios .serv__container .art__serv .serv__2-p, .body__servicios .serv__container .art__serv .serv__3-p {
+    width: 304.67px;
+    max-width: 304.67px;
     font-size: 1.7rem;
   }
-  .serv__container .art__serv .serv__2 {
+  .body__servicios .serv__container .art__serv .serv__1-p p, .body__servicios .serv__container .art__serv .serv__2-p p, .body__servicios .serv__container .art__serv .serv__3-p p {
+    width: 304.67px;
+  }
+  .body__servicios .serv__container .art__serv .serv__2 {
     margin: 0;
     padding: 0;
-    padding-bottom: 20px;
+    padding-top: 10px;
   }
-  .serv__container .art__serv .serv__3 {
+  .body__servicios .serv__container .art__serv .serv__3 {
     margin: 0;
     padding-top: 10px;
   }
-  .serv__container .art__serv .serv__3 h3 {
+  .body__servicios .serv__container .art__serv .serv__3 h3 {
     padding: 25px;
     width: 30vw;
     margin: 0;

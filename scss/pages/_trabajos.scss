@@ -48,82 +48,94 @@
         }
     }
     
-    .art__trabajos{
+    .main__trabajos{
+        @include flex(center,center);
+        flex-direction: column;
+        height: 2050px;
+
+        .art__trabajos{
     
-        height: 126vh;
-        width: 95vw;
-         
-        //----TITULO TRABAJOS----//
-    
-        .titulo__trabajos{
-            color: #fff;
-            font-family:$letra-titulo;
-            text-align: center;
-            text-shadow: 0px 0px 10px rgb(49, 161, 146),0px 0px 10px rgb(49, 161, 146);
-            padding: 25px;
-        }
-    
-        //----CONTENEDOR TRABAJOS----//
-    
-        .section__trabajos{
-            flex-wrap: wrap;
-            @include flex(center,center);
-    
-            height: 110vh;
-            
-            //----TRABAJO 1----//
-    
-            .section__1{
-                background-color: #111a;
-                border-radius: 20px;
-                box-shadow: 0px 0px 10px rgb(49, 161, 146);
-    
-                width: 85vw;
-                padding: 20px;
-    
+            height: 2000px;
+            width: 95vw;
+             
+            //----TITULO TRABAJOS----//
+        
+            .titulo__trabajos{
+                color: #fff;
+                font-family:$letra-titulo;
+                text-align: center;
+                text-shadow: 0px 0px 10px rgb(49, 161, 146),0px 0px 10px rgb(49, 161, 146);
+                padding: 25px;
+
+                h2{
+                    font-size: 2.8rem;
+                }
+            }
+        
+            //----CONTENEDOR TRABAJOS----//
+        
+            .section__trabajos{
+                flex-wrap: wrap;
                 @include flex(center,center);
-    
-                .trabajo__1{
-                    width: 80vw;
-    
-                    .trabajo__img1{
-    
-                        img{
-                            border-radius: 20px;
+        
+                height: 110vh;
+                
+                //----TRABAJO 1----//
+        
+                .section__1{
+                    background-color: #111a;
+                    border-radius: 20px;
+                    box-shadow: 0px 0px 10px rgb(49, 161, 146);
+        
+                    width: 85vw;
+                    padding: 20px;
+        
+                    @include flex(center,center);
+        
+                    .trabajo__1{
+                        width: 80vw;
+        
+                        .trabajo__img1{
+        
+                            .img__1{
+                                border-radius: 20px;
+                            }
+                        }
+        
+                        .trabajo__p1{
+                            margin-top: 15px;
+                            text-align: justify;
+                            color: white;
+                            text-shadow: 0px 0px 10px rgb(49, 161, 146),0px 0px 10px rgb(49, 161, 146);
+                            font-family: $letra-texto;
+                            font-size: 1.5rem;
                         }
                     }
-    
-                    .trabajo__p1{
-                        margin-top: 15px;
-                        text-align: justify;
-                        color: white;
-                        text-shadow: 0px 0px 10px rgb(49, 161, 146),0px 0px 10px rgb(49, 161, 146);
-                    }
                 }
-            }
-    
-             //----TRABAJO 2----//
-    
-            .section__2{
-                @extend.section__1;
-                margin-top: 30px;
-    
-                .trabajo__2{
-                    @extend.trabajo__1;
-    
-                    .trabajo__img2{
-    
-                        img{
-                            border-radius: 20px;
+        
+                 //----TRABAJO 2----//
+        
+                .section__2{
+                    @extend.section__1;
+                    margin-top: 30px;
+        
+                    .trabajo__2{
+                        @extend.trabajo__1;
+        
+                        .trabajo__img2{
+        
+                            .img__2{
+                                border-radius: 20px;
+                            }
+                        }
+        
+                        .trabajo__p2{
+                            @extend.trabajo__p1;
                         }
                     }
-    
-                    .trabajo__p2{
-                        @extend.trabajo__p1;
-                    }
                 }
+        
             }
-    
         }
     }
 }
@@ -165,34 +177,37 @@
             }
         }
     
-        .art__trabajos{
-            height: 225vh;
-    
-            .titulo__trabajos{
-                h2{
-                    font-size: 2.5rem;
-                padding: 50px;
-                }
-                
-            }
-    
-            .section__trabajos{
-    
-                .section__1{
-                    max-width: 775px;
-    
-                    .trabajo__1{
-    
-                        .trabajo__p1{
-                            font-size: 1.8rem;
-                            margin-top: 35px;
-                        }
+        .main__trabajos{
+            height: 230vh;
+            .art__trabajos{
+                height: 225vh;
+        
+                .titulo__trabajos{
+                    h2{
+                        font-size: 2.5rem;
+                        padding: 50px;
                     }
-    
+                    
                 }
-    
-                .section__2{
-                    margin-top: 80px;
+        
+                .section__trabajos{
+        
+                    .section__1{
+                        max-width: 775px;
+        
+                        .trabajo__1{
+        
+                            .trabajo__p1{
+                                font-size: 1.8rem;
+                                margin-top: 35px;
+                            }
+                        }
+        
+                    }
+        
+                    .section__2{
+                        margin-top: 80px;
+                    }
                 }
             }
         }
@@ -235,7 +250,7 @@
         }
     
         .main__trabajos{
-            height: 165vh;
+            height: 160vh;
 
             @include flex(center,center);
             flex-direction: column;
@@ -256,7 +271,8 @@
                     grid-template-columns: repeat(2,1fr);
         
                     .section__1{
-                        height: 965px;
+                        align-items: start;
+                        height: 120vh;
                         width: 45vw;
                         margin: auto;
         
