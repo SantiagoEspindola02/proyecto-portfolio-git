@@ -248,11 +248,10 @@
     
                 .serv{
     
-                    justify-content: space-evenly;
-                    max-width: 702px;
-                    height: 230vh;
-                    max-height: 1940px;
-                    width: 98vw;
+                    @include flex(space-evenly,start);
+                    max-width: 715px;
+                    height: 2090px;
+                    width: 102vw;
     
                     &__1{
     
@@ -294,7 +293,6 @@
                     &__3{
     
                         margin: 0;
-                        margin-top: 180px;
                         flex-wrap: nowrap;
                         flex-direction: column;
                     }
@@ -357,7 +355,8 @@
                     max-width: 1700px;
                     justify-content: space-evenly;
                     padding: 50px;
-                    max-height: 1000px;
+                    max-height: 1050px;
+                    gap: 50px;
                     align-items: start;
     
                     &__1{
