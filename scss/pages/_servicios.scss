@@ -1,4 +1,7 @@
 .body__servicios{
+
+    flex-direction: column;
+    @include flex(start,center);
     .header__servicios{
 
         .navbar{
@@ -74,7 +77,7 @@
                 flex-wrap: wrap;
                 border-radius: 30px;
                 background-color: #333333ff;
-                width: 90vw;
+                width: 87vw;
                 padding: 20px;
                 gap: 20px;
     
@@ -107,7 +110,7 @@
                         color: purple;
                         text-shadow: 0 0 5px#000;
                         font-size: 1.9rem;
-                        margin: 15px;
+                        padding: 15px;
                         @include flex(center,stretch);
                         font-family: $letra-texto;
                     }
@@ -147,7 +150,7 @@
                         color: purple;
                         text-shadow: 0 0 5px#000;
                         font-size: 1.9rem;
-                        margin: 15px;
+                        padding: 15px;
                         @include flex(center,stretch);
                         font-family: $letra-texto;
     
@@ -182,7 +185,7 @@
                         color: purple;
                         text-shadow: 0 0 5px#000;
                         font-size: 1.9rem;
-                        margin: 15px;
+                        padding: 15px;
                         text-align: center;
                         font-family: $letra-texto;
                     }
@@ -195,6 +198,13 @@
                 }
             }
         }
+    }
+
+    .footer__servicios{
+        @include flex(center,center);
+        color: #000;
+        margin-top: 20px;
+        min-width: 269px;
     }
 }
 
@@ -232,26 +242,26 @@
         }
     
         .serv__container{
-            height: 205vh;
+            height: 2150px;
     
             .titulo__serv{
     
                 h2{
-                    padding: 50px;
+                    padding: 30px;
                     font-size: 2.5rem;
                 }
             }
     
             .art__serv{
-                height: 180vh;
-                max-height: 2100px;
+                height: 2000px;
+                // max-height: 2100px;
     
                 .serv{
     
                     @include flex(space-evenly,start);
                     max-width: 715px;
-                    height: 2090px;
-                    width: 102vw;
+                    height: 1965px;
+                    width: 91vw;
     
                     &__1{
     
@@ -283,10 +293,11 @@
                     }
     
                     &__2{
-                        margin-bottom: 27px;
+                        margin-top: 5px;
     
                         &-p{
                             height: 468.92px;
+                            line-height: 38px;
                         }
                     }
     
@@ -295,9 +306,17 @@
                         margin: 0;
                         flex-wrap: nowrap;
                         flex-direction: column;
+
+                        &-p{
+                            line-height: 32px;
+                        }
                     }
                 }
             }
+        }
+
+        .footer__servicios{
+            align-items: end;
         }
     }
 }
@@ -337,13 +356,13 @@
         }
         .serv__container{
             margin-top: 50px;
-            height: 20vh;
+            height: 1180px;
     
             .titulo__serv{
     
                 h2{
                     font-size: 3rem;
-                    padding: 75px;
+                    padding: 40px;
                 }
             }
     
@@ -352,12 +371,13 @@
     
                 .serv{
     
-                    max-width: 1700px;
+                    max-width: 1342px;
                     justify-content: space-evenly;
                     padding: 50px;
-                    max-height: 1050px;
+                    height: 1000px;
                     gap: 50px;
                     align-items: start;
+                    width: 95vw;
     
                     &__1{
     
@@ -394,6 +414,10 @@
                         margin: 0;
                         padding: 0;
                         padding-top: 10px;
+
+                        &-p{
+                            line-height: 41px;
+                        }
                     }
     
                     &__3{
@@ -405,6 +429,10 @@
                             padding: 25px;
                             width: 30vw;
                             margin: 0;
+                        }
+
+                        &-p{
+                            line-height: 35.5px;
                         }
                     }
                 }

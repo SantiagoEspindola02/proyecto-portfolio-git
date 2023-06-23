@@ -1,231 +1,325 @@
-.header__conocimientos{
-    background-color: #000;
+.body__conocimientos{
 
-    .navbar{
-        .container-fluid{
-            align-items: start;
-            // margin-top: 20px;
-            // margin-bottom: 200px;
-            min-width: 330px;
-            background-color: #000;
-                    
-            .logo__header{
-               
-                width: 8vw;
-                min-width: 45px;
-            }
-                    
-            .navbar-toggler{
-                font-size: 1.5rem;
-                background-color: #fff;
-            }
-            
-            .navbar-collapse{
-                margin-top: 15px;
+    background-color: #000;
+    .header__conocimientos{
+        background-color: #000;
+    
+        .navbar{
+            .container-fluid{
+                align-items: start;
+                // margin-top: 20px;
+                // margin-bottom: 200px;
+                min-width: 330px;
+                background-color: #000;
                         
-                ul{
-                    li{
-                        padding: 10px;
-                            
-                        .nav-link{
-                            color: #fff;
-                            text-shadow: 0px 0px 10px rgb(193, 214, 214), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
-                            font-size: 1rem;
-                            font-family: $letra-texto;
+                .logo__header{
+                   
+                    width: 8vw;
+                    min-width: 45px;
+                }
+                        
+                .navbar-toggler{
+                    font-size: 1.5rem;
+                    background-color: #fff;
+                }
                 
-                            &:hover{
-                                color: purple;
-                                text-shadow: 3px 3px 6px #616060;
+                .navbar-collapse{
+                    margin-top: 15px;
+                            
+                    ul{
+                        li{
+                            padding: 10px;
+                                
+                            .nav-link{
+                                color: #fff;
+                                text-shadow: 0px 0px 10px rgb(193, 214, 214), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
+                                font-size: 1rem;
+                                font-family: $letra-texto;
+                    
+                                &:hover{
+                                    color: purple;
+                                    text-shadow: 3px 3px 6px #616060;
+                                }
                             }
                         }
                     }
                 }
-            }
-         }
-    
-    }
-}
-
-.conocimientos__main{
-    background-color: #000;
-    height: 3850px;
-}
-
-//----TITULO----//
-
-.conocimientos{
-    &__h2{
-        font-family: $letra-titulo;
-        font-size: 2.8rem;
-        text-shadow: 3px 3px 6px #616060;
-        color: purple;
-
-        display: flex;
-        justify-content: center;
-        padding: 30px;
-    }
-}
-
-.conocimientos__recuadro{
-    @include flex(center,center);
-
-    //----CAJA CONOCIMIENTOS----//
-
-    .conocimientos__art{
-        box-shadow: 0 0 10px purple;
-        background-color: #fff;
-        border: 5px solid rgb(58, 6, 58);
-        border-radius: 30px;
-    
-        height: 3700px;
-        width: 90vw;
-        font-family:$letra-texto;
-        font-size: 1.02rem;
-    
-        @include flex(space-evenly,stretch);
-        flex-wrap: wrap;
-
-        //----TITULO LENGUAJES----//
-
-        h3{
-            color: purple;
-            text-shadow: 0 0 5px#000;
-            font-size: 1.9rem;
-            margin: 15px;
-        }
-
-        //----HTML----//
-
-        .conocimientos__lenguaje1{
-            @include flex(center,center);
-            flex-direction: row;
-            text-align: justify;
-            flex-wrap: wrap;
+             }
         
-            padding: 5px;
-            width: 44.56vw;
-            min-width: 250px;
-            max-width: 450px;
-            margin-top: 80px;
+        }
+    }
+    
+    .conocimientos__main{
+        background-color: #000;
+        height: 3850px;
 
-            .lenguaje1__caja-img{
-                width: 44.56vw;
-                min-width: 250px;
-                max-width: 450px;
-
-                img{
-                    height: 25vh;
+        //----TITULO----//
+    
+        .conocimientos{
+            &__h2{
+                font-family: $letra-titulo;
+                font-size: 2.8rem;
+                text-shadow: 3px 3px 6px #616060;
+                color: purple;
+        
+                display: flex;
+                justify-content: center;
+                padding: 30px;
+            }
+        }
+        
+        .conocimientos__recuadro{
+            @include flex(center,center);
+        
+            //----CAJA CONOCIMIENTOS----//
+        
+            .conocimientos__art{
+                box-shadow: 0 0 10px purple;
+                background-color: #fff;
+                border: 5px solid rgb(58, 6, 58);
+                border-radius: 30px;
+            
+                height: 3700px;
+                width: 90vw;
+                font-family:$letra-texto;
+                font-size: 1.02rem;
+            
+                @include flex(space-evenly,stretch);
+                flex-wrap: wrap;
+        
+                //----TITULO LENGUAJES----//
+        
+                h3{
+                    color: purple;
+                    text-shadow: 0 0 5px#000;
+                    font-size: 1.9rem;
+                    margin: 15px;
+                }
+        
+                //----HTML----//
+        
+                .conocimientos__lenguaje1{
+                    @include flex(center,center);
+                    flex-direction: row;
+                    text-align: justify;
+                    flex-wrap: wrap;
+                
+                    padding: 5px;
                     width: 44.56vw;
                     min-width: 250px;
                     max-width: 450px;
-                    object-fit: cover;
+                    margin-top: 80px;
+        
+                    .lenguaje1__caja-img{
+                        width: 44.56vw;
+                        min-width: 250px;
+                        max-width: 450px;
+        
+                        img{
+                            height: 25vh;
+                            width: 44.56vw;
+                            min-width: 250px;
+                            max-width: 450px;
+                            object-fit: cover;
+                        }
+                    }
+        
+                    .lenguaje1__p{
+                        font-size: 1.5rem;
+                        text-align: justify;
+                        font-family: $letra-texto;
+                        color: rgb(61, 60, 60);
+                        text-shadow: 2px 2px 3px#616060;
+                    
+                        margin-top: 10px;
+                        // height: 40vh;
+                        width: 44.56vw;
+                        min-width: 250px;
+                        max-width: 450px;
+                        
+                    }
+        
                 }
-            }
-
-            .lenguaje1__p{
-                font-size: 1.5rem;
-                text-align: justify;
-                font-family: $letra-texto;
-                color: rgb(61, 60, 60);
-                text-shadow: 2px 2px 3px#616060;
-            
-                margin-top: 10px;
-                // height: 40vh;
-                width: 44.56vw;
-                min-width: 250px;
-                max-width: 450px;
+                     
+                //----CSS----//
+        
+                .conocimientos__lenguaje2{
+                    @extend.conocimientos__lenguaje1;
+                    margin-top: 60px;
+                   
+                    .lenguaje2__caja-img{
+                        @extend.lenguaje1__caja-img;
+        
+                        img{
+                            @extend img;
+                        }
+                    }
+        
+                    .lenguaje2__p{
+                        @extend.lenguaje1__p;
+                    }
+        
+                }
+        
+                //----JAVASCRIPT----//
+        
+                .conocimientos__lenguaje3{
+                    @extend.conocimientos__lenguaje1;
+                    margin-top: 80px;
+                    
+                    .lenguaje3__caja-img{
+                        @extend.lenguaje1__caja-img;
+        
+                        img{
+                            @extend img;
+                        }
+                    }
+        
+                    .lenguaje3__p{
+                        @extend.lenguaje1__p;
+                    }
+                }
+        
+                //----REACT----//
+        
+                .conocimientos__lenguaje4{
+                    @extend.conocimientos__lenguaje1;
+                    margin-top: 60px;
+        
+                    .lenguaje4__caja-img{
+                        @extend.lenguaje1__caja-img;
+        
+                        img{
+                            @extend img;
+                        }
+                    }
+        
+                    .lenguaje4__p{
+                        @extend.lenguaje1__p;
+                    }
+                }
+        
                 
             }
-
-        }
-             
-        //----CSS----//
-
-        .conocimientos__lenguaje2{
-            @extend.conocimientos__lenguaje1;
-            margin-top: 60px;
-           
-            .lenguaje2__caja-img{
-                @extend.lenguaje1__caja-img;
-
-                img{
-                    @extend img;
-                }
-            }
-
-            .lenguaje2__p{
-                @extend.lenguaje1__p;
-            }
-
         }
 
-        //----JAVASCRIPT----//
-
-        .conocimientos__lenguaje3{
-            @extend.conocimientos__lenguaje1;
-            margin-top: 80px;
-            
-            .lenguaje3__caja-img{
-                @extend.lenguaje1__caja-img;
-
-                img{
-                    @extend img;
-                }
-            }
-
-            .lenguaje3__p{
-                @extend.lenguaje1__p;
-            }
-        }
-
-        //----REACT----//
-
-        .conocimientos__lenguaje4{
-            @extend.conocimientos__lenguaje1;
-            margin-top: 60px;
-
-            .lenguaje4__caja-img{
-                @extend.lenguaje1__caja-img;
-
-                img{
-                    @extend img;
-                }
-            }
-
-            .lenguaje4__p{
-                @extend.lenguaje1__p;
-            }
-        }
-
-        
     }
+    
+    .footer__conocimientos{
+        @include flex(center,center);
+        color: #fff;
+        margin-top: 50px;
+        min-width: 269px;
+    }   
+    
 }
-
 //----RESPONSIVE TABLET----//
 
 @media (min-width:576px){
 
-    .header__conocimientos{
+    .body__conocimientos{
 
-        .navbar{
+        .header__conocimientos{
 
-            .container-fluid{
-                margin-bottom: 0;
+            .navbar{
     
-                .navbar-collapse{
-                    ul{
-                        @include flex(center,stretch);
-                        gap: 12px;
-                        margin-right: 2px;
+                .container-fluid{
+                    margin-bottom: 0;
+        
+                    .navbar-collapse{
+                        ul{
+                            @include flex(center,stretch);
+                            margin-right: 0px;
+                            padding-left: 0;
+                    
+                            li{
+                                padding: 9px;
+                    
+                                .nav-link{
+                                    display: block;
+                                    font-size: 1.09rem;
                 
-                        li{
-                            padding: 0;
-                
-                            .nav-link{
-                                display: block;
-                                font-size: 1.09rem;
-            
+                                }
                             }
+                        }
+                    }
+                }
+            }
+        }
+    
+        .conocimientos__main{
+            height: 2400px;
+    
+            .conocimientos{
+                padding: 30px;
+    
+                &__h2{
+                    font-size: 2.5rem;
+                }
+            }
+
+            .conocimientos__recuadro{
+
+                .conocimientos__art{
+        
+                    height: 2200px;
+        
+                    h3{
+                        font-size: 2.4rem;
+                        margin: 30px;
+                    }
+        
+                    .conocimientos__lenguaje1{
+                        width: 40vw;
+                        height: 40vh;
+                        margin-top: 50px;
+                        max-width: 360px;
+                        max-height: 250px;
+                        padding: 15px;
+            
+                        .lenguaje1__caja-img{
+                            width: 40vw;
+                            @include width(100px,300px);
+                            @include flex(center,center);
+            
+                            img{
+                                width: 40vw;
+                                @include width(100px,230px);
+                            }
+                        }
+            
+                        .lenguaje1__p{
+                            width: 225px;
+                            line-height: 38px;
+                            @include width(100px,230px);
+                            font-size: 1.7rem;
+                            font-family: $letra-texto;
+                            color: rgb(61, 60, 60);
+                            text-shadow: 2px 2px 3px#616060;
+                        }
+                    }
+        
+                    .conocimientos__lenguaje2{
+                        margin-top: 48px;
+        
+                        .lenguaje2__p{
+                            line-height: 34px;
+                        }
+        
+                    }
+            
+                    
+                    .conocimientos__lenguaje3{
+                        
+                        .lenguaje3__p{
+                            line-height: 33px;
+                        }
+                    }
+            
+                    .conocimientos__lenguaje4{
+                        
+                        .lenguaje4__p{
+                            line-height: 31.5px;
                         }
                     }
                 }
@@ -233,174 +327,109 @@
         }
     }
 
-    .conocimientos__main{
-        height: 2725px;
-
-        .conocimientos{
-            padding: 50px;
-
-            &__h2{
-                font-size: 2.5rem;
-            }
-        }
+    .footer__conocimientos{
+        margin-top: 0;
     }
-    .conocimientos__recuadro{
-
-        .conocimientos__art{
-
-            height: 2422px;
-
-            h3{
-                font-size: 2.4rem;
-                margin: 30px;
-            }
-
-            .conocimientos__lenguaje1{
-                width: 40vw;
-                height: 40vh;
-                margin-top: 50px;
-                max-width: 360px;
-                max-height: 250px;
     
-                .lenguaje1__caja-img{
-                    width: 40vw;
-                    @include width(100px,300px);
-                    @include flex(center,center);
-    
-                    img{
-                        width: 40vw;
-                        @include width(100px,230px);
-                    }
-                }
-    
-                .lenguaje1__p{
-                    width: 35vw;
-                    line-height: 35px;
-                    @include width(100px,230px);
-                    font-size: 1.7rem;
-                    font-family: $letra-texto;
-                    color: rgb(61, 60, 60);
-                    text-shadow: 2px 2px 3px#616060;
-                }
-            }
-
-            .conocimientos__lenguaje2{
-                margin-top: 48px;
-
-                .lenguaje2__p{
-                    line-height: 35.5px;
-                }
-
-            }
-    
-            
-            .conocimientos__lenguaje3{
-                // margin-top: 82px;
-                
-                .lenguaje3__p{
-                    line-height: 33px;
-                }
-            }
-    
-            .conocimientos__lenguaje4{
-                // margin-top: 80px;
-                
-                .lenguaje4__p{
-                    line-height: 31.5px;
-                }
-            }
-        }
-    }
 }
 
 //----RESPONSIVE DESKTOP----//
 
 @media(min-width:1200px){
-    .header__conocimientos{
 
-        .navbar{
+    .body__conocimientos{
 
-            .container-fluid{
-                .logo-header{
-                    margin-left: 50px;
-                    max-width: 80px;
-                }
-            
-                .navbar-collapse{
-                    ul{
-                        gap: 50px;
-                        margin-right: 40px;
+        .header__conocimientos{
+
+            .navbar{
+    
+                .container-fluid{
+                    .logo-header{
+                        margin-left: 50px;
+                        max-width: 80px;
+                    }
                 
-                        li{
-                            .nav-link{
-                                font-size: 2rem;
-                        
+                    .navbar-collapse{
+                        ul{
+                            gap: 50px;
+                            margin-right: 40px;
+                    
+                            li{
+                                .nav-link{
+                                    font-size: 2rem;
+                            
+                                }
                             }
                         }
                     }
                 }
             }
         }
-    }
+    
+        .conocimientos__main{
+            height: 1300px;
+            
+            .conocimientos__h2{
+                padding: 40px;
+                font-size: 3rem;
+            }
+    
+            .conocimientos__recuadro{
 
-    .conocimientos__main{
-        height: 1550px;
+                .conocimientos__art{
+                    @include flex(space-evenly,start);
+                    height: 1100px;
+                    max-width: 1272px;
         
-        .conocimientos__h2{
-            padding: 75px;
-            font-size: 3rem;
-        }
-
-      .conocimientos__recuadro{
-
-        .conocimientos__art{
-            @include flex(space-evenly,start);
-            height: 1150px;
-
-            .conocimientos__lenguaje1{
-                width: 200px;
-    
-                .lenguaje1__caja-img{
-                    width: 20vw;
-                    @include width(100px,200px);
-                    @include flex(center,center);
-    
-                    img{
-                        width: 20vw;
-                        @include width(100px,200px);
+                    .conocimientos__lenguaje1{
+                        width: 200px;
+            
+                        .lenguaje1__caja-img{
+                            width: 20vw;
+                            @include width(100px,200px);
+                            @include flex(center,center);
+            
+                            img{
+                                width: 20vw;
+                                @include width(100px,200px);
+                            }
+                        }
+            
+                        .lenguaje1__p{
+                            width: 206px;
+                            line-height: 36px;
+                            @include width(195px,220px);
+                            font-size: 1.7rem;
+                            font-family: $letra-texto;
+                            color: rgb(61, 60, 60);
+                            text-shadow: 2px 2px 3px#616060;
+                            height: 706px;
+                        }
                     }
+        
+                    .conocimientos__lenguaje2{
+                        
+                        .lenguaje2__p{
+                            margin-top: 15px;
+                            line-height: 32.7px;
+                        }
+                    }
+        
+                    .conocimientos__lenguaje3{
+                        .lenguaje3__p{
+                            line-height: 31.5px;
+                        }
+                    }
+            
+                    .conocimientos__lenguaje4{
+                        .lenguaje4__p{
+                            line-height: 30px;
+                        }
+                   }
                 }
-    
-                .lenguaje1__p{
-                    width: 15vw;
-                    line-height: 36px;
-                    @include width(195px,200px);
-                    font-size: 1.7rem;
-                    font-family: $letra-texto;
-                    color: rgb(61, 60, 60);
-                    text-shadow: 2px 2px 3px#616060;
-                    height: 706px;
-                }
-            }
-
-            .conocimientos__lenguaje2{
-                .lenguaje2__p{
-                    line-height: 32.7px;
-                }
-            }
-
-            .conocimientos__lenguaje3{
-                .lenguaje3__p{
-                    line-height: 30px;
-                }
-            }
-    
-            .conocimientos__lenguaje4{
-                .lenguaje4__p{
-                    line-height: 30px;
-                }
-           }
+            
+            } 
         }
-      } 
-    }       
+    }
+      
 }

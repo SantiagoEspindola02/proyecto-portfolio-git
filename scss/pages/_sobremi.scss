@@ -1,156 +1,287 @@
-.art_sobremi{
+.body__sobremi{
     background-position:center;
     background-image: url(../imagenes/codigos3.jpg);
-    height: 100vh;
     background-size: cover;
+    flex-direction: column;
+    @include flex(start,center);
 
-    @include flex(center,center);
-     
-    //----CONTENEDOR CV----//
+    .header__sobremi{
 
-    .cv{
-        border-radius: 30px;
-        background-color: #0009;
-        box-shadow: 2px 2px 10px rgb(49, 161, 146), 2px 2px 20px rgb(193, 214, 214), 2px 2px 40px rgb(193, 214, 214);
-        width: 80vw;
-        min-width: 277.3px;
-        max-width: 318px;
-        height: 91vh;
-        padding: 5v px;
-    
-        @include flex(center,center);
-        flex-direction: column;
-
-        &__p{
-            width: 60vw;
-            min-width: 246.4px;
-            max-width: 260px;
-        
-            margin-top: 25px;
-            text-align: justify;
-            color: $color-letra;
-            font-size: 1.5rem;
-            font-family:$letra-texto;
-            text-shadow: 0px 0px 10px rgb(49, 161, 146), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
-        }
-
-        &__caja--img{
-            text-align: center;
-            width: 40vw;
-        
-            @include flex(stretch,center);
-            flex-direction: column;
-
-            img{
-                min-width: 250px;
-                border-radius: 30px;
-            }
-
-            .a_img{
-                color: $color-letra;
-                background-color: #1b7ab9;
-                text-shadow:0px 0px 10px rgb(49, 161, 146), 0px 0px 20px rgb(193, 214, 214),0px 0px 40px rgb(193, 214, 214);
-                box-shadow:  0px 0px 10px rgb(49, 161, 146), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
-            
-                min-width: 115px;
-                margin-top: 20px;
-                padding: 12px;
-                border-radius: 10px;
-            
-                @include flex(center,center);
-
-                &:hover{
-                    color: rgb(8, 8, 68);
+        .navbar{
+            .container-fluid{
+                align-items: start;
+                min-width: 320px;
+                margin-bottom: 50px;
+                        
+                .logo__header{
+                   
+                    width: 8vw;
+                    min-width: 45px;
+                }
+                        
+                .navbar-toggler{
+                    font-size: 1.5rem;
                     background-color: #fff;
                 }
-            }
+                
+                .navbar-collapse{
+                    margin-top: 15px;
+                            
+                    ul{
+                        li{
+                            padding: 10px;
+                                
+                            .nav-link{
+                                color: #fff;
+                                text-shadow: 0px 0px 10px rgb(49, 161, 146),0px 0px 10px rgb(49, 161, 146);
+                                font-size: 1rem;
+                                font-family: $letra-texto;
+                    
+                                &:hover{
+                                    color: rgb(8, 8, 68);
+                                }
+                            }
+                        }
+                    }
+                }
+             }
         
         }
+    }
+
+    main{
+
+        .art_sobremi{
+        
+            @include flex(center,center);
+             
+            //----CONTENEDOR CV----//
+        
+            .cv{
+                border-radius: 30px;
+                background-color: #0009;
+                box-shadow: 2px 2px 10px rgb(49, 161, 146), 2px 2px 20px rgb(193, 214, 214), 2px 2px 40px rgb(193, 214, 214);
+                width: 80vw;
+                min-width: 277.3px;
+                max-width: 318px;
+                padding: 5 px;
+            
+                @include flex(center,center);
+                flex-direction: column;
+        
+                &__p{
+                    width: 60vw;
+                    min-width: 246.4px;
+                    max-width: 260px;
+                
+                    margin-top: 25px;
+                    text-align: justify;
+                    color: $color-letra;
+                    font-size: 1.5rem;
+                    font-family:$letra-texto;
+                    text-shadow: 0px 0px 10px rgb(49, 161, 146), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
+                }
+        
+                &__caja--img{
+                    text-align: center;
+                    width: 40vw;
+                    padding-top:10px; 
+                
+                    @include flex(stretch,center);
+                    flex-direction: column;
+        
+                    img{
+                        min-width: 250px;
+                        border-radius: 30px;
+                    }
+        
+                    .a_img{
+                        color: $color-letra;
+                        font-family: $letra-texto;
+                        text-decoration: none;
+                        background-color: #1b7ab9;
+                        text-shadow:0px 0px 10px rgb(49, 161, 146), 0px 0px 20px rgb(193, 214, 214),0px 0px 40px rgb(193, 214, 214);
+                        box-shadow:  0px 0px 10px rgb(49, 161, 146), 0px 0px 20px rgb(193, 214, 214), 0px 0px 40px rgb(193, 214, 214);
+                    
+                        min-width: 115px;
+                        margin-top: 20px;
+                        padding: 12px;
+                        border-radius: 10px;
+                    
+                        @include flex(center,center);
+        
+                        &:hover{
+                            color: rgb(8, 8, 68);
+                            background-color: #fff;
+                        }
+                    }
+                
+                }
+            }
+        }
+    }
+
+    .footer__sobremi{
+        @include flex(center,center);
+        color: #fff;
+        margin-top: 50px;
+        min-width: 269px;
     }
 }
 
     //----RESPONSIVE TABLET----//
 
-@media (min-width:600px){
-    .art_sobremi{
-        justify-content:center;
-        height: 100vh;
+@media (min-width:576px){
+    .body__sobremi{
 
-        .cv{
-            align-items: center;
-            justify-content: center;
-            height: 97vh;
-            width: 93vw;
-            min-width: 550px;
+        .header__sobremi{
 
-            &__caja--img{
-                max-width: 339px;
+            .navbar{
+
+                .container-fluid{
+                    margin-bottom: 70px;
         
-                margin-top: 30px;
-
-                .a_img{
-                    width: 15vw;
-                    min-width: 160px;
-                    max-width: 225px;
-                    height: 5vh;
-                    text-align: center;
-                    font-size: 1.4rem;
+                    .navbar-collapse{
+                        ul{
+                            @include flex(center,stretch);
+                            gap: 12px;
+                            margin-right: 2px;
+                    
+                            li{
+                                padding: 0;
+                    
+                                .nav-link{
+                                    display: block;
+                                    font-size: 1.09rem;
+                
+                                }
+                            }
+                        }
+                    }
                 }
-
-                img{
-                    min-width: 315px;
-                }
-
-            }
-
-            &__p{
-                width: 90vw;
-                min-width: 490px;
-                font-size: 1.5rem;
-        
-                margin-top: 20px;
             }
         }
+
+        main{
+
+            .art_sobremi{
+                justify-content:center;
+                // height: 100vh;
+        
+                .cv{
+                    align-items: center;
+                    justify-content: center;
+                    height: 951.85px;
+                    width: 80vw;
+                    @include width(540px,600px);
+        
+                    &__caja--img{
+                        max-width: 339px;
+                
+                        margin-top: 20px;
+        
+                        .a_img{
+                            width: 15vw;
+                            min-width: 160px;
+                            max-width: 225px;
+                            height: 5vh;
+                            text-align: center;
+                            font-size: 1.4rem;
+                        }
+        
+                        img{
+                            min-width: 315px;
+                        }
+        
+                    }
+        
+                    &__p{
+                        width: 90vw;
+                        min-width: 490px;
+                        font-size: 1.5rem;
+                
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
     }
+
 }
 
     //----RESPONSIVE DESKTOP----//
 
 @media (min-width:1200px){
-    .art_sobremi{
-        .cv{
-            flex-direction: row;
-            height: 85vh;
-            width: 120vw;
-            min-width: 1100px;
-            max-width: 1100px;
-            justify-content: space-evenly;
+
+    .body__sobremi{
+
+        .header__sobremi{
+
+            .navbar{
     
-            &__caja--img{
-                width: 400px;
-    
-                img{
-                    width: 400px;
-                }
-    
-                .a_img{
-                    height: 7vh;
-                    text-align: center;
-                }
-            }
-    
-            &__p{
-                @include flex(stretch,center);
-                max-width: 500px;
-                width: 80vw;
-    
-                p{
-                    width: 80vw;
-                    font-size: 1.7rem;
-                    max-width: 500px;
+                .container-fluid{
+                    .logo-header{
+                        margin-left: 50px;
+                        max-width: 80px;
+                    }
+                
+                    .navbar-collapse{
+                        ul{
+                            gap: 30px;
+                    
+                            li{
+                                font-size: 2rem;
+                                .nav-link{
+                                    font-size: 2rem;
+                            
+                                }
+                            }
+                        }
+                    }
                 }
             }
-        
+        }
+
+        main{
+
+            .art_sobremi{
+                
+                .cv{
+                    flex-direction: row;
+                    height: 85vh;
+                    width: 120vw;
+                    max-width: 1100px;
+                    justify-content: space-evenly;
+            
+                    &__caja--img{
+                        width: 400px;
+            
+                        img{
+                            width: 400px;
+                        }
+            
+                        .a_img{
+                            height: 7vh;
+                            text-align: center;
+                        }
+                    }
+            
+                    &__p{
+                        @include flex(stretch,center);
+                        max-width: 500px;
+                        width: 80vw;
+            
+                        p{
+                            width: 80vw;
+                            font-size: 1.7rem;
+                            max-width: 500px;
+                        }
+                    }
+                
+                }
+            }
         }
     }
+    
 }
