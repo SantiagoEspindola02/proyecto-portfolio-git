@@ -1,13 +1,11 @@
 
 .inicio{
-    width: 100vw;
     height: 100vh;
     background-image:url(../imagenes/programador.jpg);
     background-size: cover;
     background-position: center;
 
     @include flex(start,center);
-    // flex-wrap: wrap;
     flex-direction: column;
 
     //----MENU HAMBURGUESA----//
@@ -71,6 +69,7 @@
     line-height: 300px;
     text-align: center;
     font-size: 1.5rem;
+
     .titulo__span{
         font-size: 4.3rem;
         font-family: $letra-titulo
@@ -136,6 +135,10 @@
             }
         
         }
+
+        .footer__index{
+            margin-top: 0;
+        }
     }
 
 }
@@ -144,37 +147,42 @@
 
 @media (min-width:1000px){
     
-    .header__index{
+    .inicio{
+        .header__index{
 
-        .navbar{
-
-            .container-fluid{
-                .logo-header{
-                    margin-left: 50px;
-                    max-width: 80px;
-                }
-            
-                .navbar-collapse{
-                    ul{
-                        gap: 50px;
-                        margin-right: 40px;
+            .navbar{
+    
+                .container-fluid{
+                    .logo-header{
+                        margin-left: 50px;
+                        max-width: 80px;
+                    }
                 
-                        li{
-                            font-size: 2rem;
-                            .nav-link{
-                                font-size: 3rem;
-                        
+                    .navbar-collapse{
+                        ul{
+                            gap: 30px;
+                    
+                            li{
+                                font-size: 2rem;
+                                .nav-link{
+                                    font-size: 2rem;
+                            
+                                }
                             }
                         }
                     }
                 }
             }
         }
-    }
+    
+        .titulo{
+            h1{
+                margin-bottom: 0;
+            }
+        }
 
-    .titulo{
-        h1{
-            margin-bottom: 0;
+        .footer__index{
+            margin-top: 70px;
         }
     }
 }

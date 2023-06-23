@@ -48,7 +48,7 @@
 
 .conocimientos__main{
     background-color: #000;
-    height: 420vh;
+    height: 3850px;
 }
 
 //----TITULO----//
@@ -77,7 +77,7 @@
         border: 5px solid rgb(58, 6, 58);
         border-radius: 30px;
     
-        height: 3500px;
+        height: 3700px;
         width: 90vw;
         font-family:$letra-texto;
         font-size: 1.02rem;
@@ -234,7 +234,7 @@
     }
 
     .conocimientos__main{
-        height: 280vh;
+        height: 2725px;
 
         .conocimientos{
             padding: 50px;
@@ -248,7 +248,7 @@
 
         .conocimientos__art{
 
-            height: 252vh;
+            height: 2422px;
 
             h3{
                 font-size: 2.4rem;
@@ -288,25 +288,25 @@
                 margin-top: 48px;
 
                 .lenguaje2__p{
-                    line-height: 32.5px;
+                    line-height: 35.5px;
                 }
 
             }
     
             
             .conocimientos__lenguaje3{
-                margin-top: 82px;
+                // margin-top: 82px;
                 
                 .lenguaje3__p{
-                    line-height: 28.5px;
+                    line-height: 33px;
                 }
             }
     
             .conocimientos__lenguaje4{
-                margin-top: 80px;
+                // margin-top: 80px;
                 
                 .lenguaje4__p{
-                    line-height: 30px;
+                    line-height: 31.5px;
                 }
             }
         }
@@ -344,7 +344,7 @@
     }
 
     .conocimientos__main{
-        height: 150vh;
+        height: 1550px;
         
         .conocimientos__h2{
             padding: 75px;
@@ -354,11 +354,11 @@
       .conocimientos__recuadro{
 
         .conocimientos__art{
-            @include flex(center,start);
-            height: 120vh;
+            @include flex(space-evenly,start);
+            height: 1150px;
 
             .conocimientos__lenguaje1{
-                width: 20vw;
+                width: 200px;
     
                 .lenguaje1__caja-img{
                     width: 20vw;
@@ -373,21 +373,32 @@
     
                 .lenguaje1__p{
                     width: 15vw;
-                    line-height: 30px;
+                    line-height: 36px;
                     @include width(195px,200px);
                     font-size: 1.7rem;
                     font-family: $letra-texto;
                     color: rgb(61, 60, 60);
                     text-shadow: 2px 2px 3px#616060;
+                    height: 706px;
+                }
+            }
+
+            .conocimientos__lenguaje2{
+                .lenguaje2__p{
+                    line-height: 32.7px;
                 }
             }
 
             .conocimientos__lenguaje3{
-                margin-top: 30px;
+                .lenguaje3__p{
+                    line-height: 30px;
+                }
             }
     
             .conocimientos__lenguaje4{
-                margin-top: 30px;
+                .lenguaje4__p{
+                    line-height: 30px;
+                }
            }
         }
       } 
