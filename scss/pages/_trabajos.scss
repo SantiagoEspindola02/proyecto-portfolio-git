@@ -187,9 +187,9 @@
         }
     
         .main__trabajos{
-            height: 230vh;
+            height: 2450px;
             .art__trabajos{
-                height: 225vh;
+                height: 2450px;
         
                 .titulo__trabajos{
                     h2{
@@ -202,16 +202,22 @@
                 .section__trabajos{
         
                     .section__1{
-                        max-width: 630px;
+                        width: 93vw;
+                        max-width: 581px;
                         height: 1050px;
         
                         .trabajo__1{
         
-                            width: 60vw;
-                            @include width(380px,600px);
+                            @include flex(center,center);
+                            flex-direction: column;
+                            margin-top: 15px;
+                            width: 80vw;
+                            @include width(500px,570px);
                             .trabajo__p1{
                                 font-size: 1.8rem;
                                 margin-top: 35px;
+                                line-height: 42px;
+                                width: 500px;
                             }
                         }
         
@@ -262,17 +268,17 @@
         }
     
         .main__trabajos{
-            height: 160vh;
+            height: 1270px;
 
             @include flex(center,center);
             flex-direction: column;
             .art__trabajos{
-                height: 165vh;
+                height: 1270px;
         
                 .titulo__trabajos{
                     
                     h2{
-                        padding: 75px;
+                        padding: 40px;
                         font-size: 3rem;
                     }    
                 }
@@ -281,6 +287,7 @@
                     display: grid;
                     justify-items: center;
                     grid-template-columns: repeat(2,1fr);
+                    height: 0;
         
                     .section__1{
                         align-items: start;
@@ -289,6 +296,8 @@
                         margin: auto;
         
                         .trabajo__1{
+                            margin-top: 15px;
+                            height: 1000px;
         
                             .trabajo__p1{
                                 font-size: 1.8rem;

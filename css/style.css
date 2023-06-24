@@ -725,27 +725,35 @@
     font-size: 1.09rem;
   }
   .body__trabajos .main__trabajos {
-    height: 230vh;
+    height: 2450px;
   }
   .body__trabajos .main__trabajos .art__trabajos {
-    height: 225vh;
+    height: 2450px;
   }
   .body__trabajos .main__trabajos .art__trabajos .titulo__trabajos h2 {
     font-size: 2.5rem;
     padding: 50px;
   }
   .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 {
-    max-width: 630px;
+    width: 93vw;
+    max-width: 581px;
     height: 1050px;
   }
   .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 {
-    width: 60vw;
-    min-width: 380px;
-    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 80vw;
+    min-width: 500px;
+    max-width: 570px;
   }
   .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
     font-size: 1.8rem;
     margin-top: 35px;
+    line-height: 42px;
+    width: 500px;
   }
   .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 {
     margin-top: 80px;
@@ -770,29 +778,34 @@
     font-size: 2rem;
   }
   .body__trabajos .main__trabajos {
-    height: 160vh;
+    height: 1270px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
   .body__trabajos .main__trabajos .art__trabajos {
-    height: 165vh;
+    height: 1270px;
   }
   .body__trabajos .main__trabajos .art__trabajos .titulo__trabajos h2 {
-    padding: 75px;
+    padding: 40px;
     font-size: 3rem;
   }
   .body__trabajos .main__trabajos .art__trabajos .section__trabajos {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(2, 1fr);
+    height: 0;
   }
   .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 {
     align-items: start;
     height: 120vh;
     width: 45vw;
     margin: auto;
+  }
+  .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 {
+    margin-top: 15px;
+    height: 1000px;
   }
   .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__1 .trabajo__1 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__1 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p1, .body__trabajos .main__trabajos .art__trabajos .section__trabajos .section__2 .trabajo__2 .trabajo__p2 {
     font-size: 1.8rem;
