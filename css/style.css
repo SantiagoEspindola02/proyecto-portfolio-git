@@ -1166,10 +1166,7 @@
   font-size: 2.3rem;
   color: purple;
   text-shadow: 0 0 5px #000;
-  border-top: none;
-  border-bottom: 1px solid purple;
-  padding-top: 30px;
-  padding-bottom: 12px;
+  padding: 30px;
   width: 100vw;
 }
 .contacto__footer .form {
@@ -1264,6 +1261,10 @@
 .contacto__footer .redes img, .contacto__footer .redes .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .contacto__footer .redes img, .contacto__footer .redes .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .contacto__footer .redes img, .contacto__footer .redes .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .contacto__footer .redes img {
   max-height: 50px;
   min-width: 50px;
+}
+.contacto__footer .copy {
+  margin-top: 20px;
+  color: #000;
 }
 
 @media (min-width: 576px) {

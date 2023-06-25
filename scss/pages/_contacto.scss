@@ -58,11 +58,7 @@
         font-size: 2.3rem;
         color: purple;
         text-shadow: 0 0 5px#000;
-        border-top: none;
-        border-bottom: 1px solid purple;
-        // box-shadow: 0 0 10px #000;
-        padding-top: 30px;
-        padding-bottom: 12px;
+       padding: 30px;
         width: 100vw;
         
     }
@@ -166,6 +162,11 @@
             min-width: 50px;
         }
 
+    }
+
+    .copy{
+        margin-top: 20px;
+        color: #000;
     }
 
 }
