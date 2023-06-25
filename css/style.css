@@ -202,7 +202,9 @@
   flex-direction: column;
 }
 .body__sobremi main .art_sobremi .cv__caja--img img, .body__sobremi main .art_sobremi .cv__caja--img .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .body__sobremi main .art_sobremi .cv__caja--img img, .body__sobremi main .art_sobremi .cv__caja--img .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .body__sobremi main .art_sobremi .cv__caja--img img, .body__sobremi main .art_sobremi .cv__caja--img .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .body__sobremi main .art_sobremi .cv__caja--img img {
+  width: 50vw;
   min-width: 250px;
+  max-width: 270px;
   border-radius: 30px;
 }
 .body__sobremi main .art_sobremi .cv__caja--img .a_img {
@@ -276,6 +278,7 @@
   }
   .body__sobremi main .art_sobremi .cv__caja--img img, .body__sobremi main .art_sobremi .cv__caja--img .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .body__sobremi main .art_sobremi .cv__caja--img img, .body__sobremi main .art_sobremi .cv__caja--img .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .body__sobremi main .art_sobremi .cv__caja--img img, .body__sobremi main .art_sobremi .cv__caja--img .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .body__sobremi main .art_sobremi .cv__caja--img img {
     min-width: 315px;
+    max-width: 350px;
   }
   .body__sobremi main .art_sobremi .cv__p {
     width: 90vw;
@@ -309,7 +312,9 @@
     width: 400px;
   }
   .body__sobremi main .art_sobremi .cv__caja--img img, .body__sobremi main .art_sobremi .cv__caja--img .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .body__sobremi main .art_sobremi .cv__caja--img img, .body__sobremi main .art_sobremi .cv__caja--img .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .body__sobremi main .art_sobremi .cv__caja--img img, .body__sobremi main .art_sobremi .cv__caja--img .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .body__sobremi main .art_sobremi .cv__caja--img img {
-    width: 400px;
+    width: 30vw;
+    min-width: 400px;
+    max-width: 450px;
   }
   .body__sobremi main .art_sobremi .cv__caja--img .a_img {
     height: 7vh;
@@ -1259,8 +1264,16 @@
   padding-top: 30px;
 }
 .contacto__footer .redes img, .contacto__footer .redes .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje2 .lenguaje2__caja-img .contacto__footer .redes img, .contacto__footer .redes .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje3 .lenguaje3__caja-img .contacto__footer .redes img, .contacto__footer .redes .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img img, .body__conocimientos .conocimientos__main .conocimientos__recuadro .conocimientos__art .conocimientos__lenguaje4 .lenguaje4__caja-img .contacto__footer .redes img {
-  max-height: 50px;
+  height: 50px;
   min-width: 50px;
+}
+.contacto__footer .redes .wpp {
+  width: 60px;
+  height: 60px;
+}
+.contacto__footer .redes .gmail {
+  width: 65px;
+  height: 50px;
 }
 .contacto__footer .copy {
   margin-top: 20px;
